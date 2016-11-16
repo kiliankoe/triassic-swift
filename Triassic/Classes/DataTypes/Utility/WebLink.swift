@@ -12,7 +12,7 @@ public extension Utility {
     /// URL mit Beschriftungstext zu einer Ressource im Web
     public struct WebLink {
         /// Beschriftungstext des Links.
-        public let label: Utility.InternationalText
+        public let label: InternationalText
         /// URL zur Web-Ressource.
         let url: URL
     }
