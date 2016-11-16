@@ -8,6 +8,6 @@
 
 import Foundation
 
-class Triassic {
+public class Triassic {
 
 }

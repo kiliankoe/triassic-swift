@@ -9,7 +9,7 @@
 import Foundation
 import CoreLocation
 
-protocol Provider {
+public protocol Provider {
     var id: String { get }
     var baseURL: URL { get }
     var center: CLLocationCoordinate2D { get }
