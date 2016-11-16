@@ -37,6 +37,8 @@
 		39729ECE1DDCEFD300FC0ADD /* InternationalText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39729ECD1DDCEFD300FC0ADD /* InternationalText.swift */; };
 		39729ED01DDCF12400FC0ADD /* GeoPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39729ECF1DDCF12400FC0ADD /* GeoPosition.swift */; };
 		39729ED21DDCF1F000FC0ADD /* WebLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39729ED11DDCF1F000FC0ADD /* WebLink.swift */; };
+		39729ED51DDD050D00FC0ADD /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39729ED41DDD050D00FC0ADD /* Request.swift */; };
+		39729ED71DDD054D00FC0ADD /* LocationInformationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39729ED61DDD054D00FC0ADD /* LocationInformationRequest.swift */; };
 		3A9DE5E02A5ADDF4742F73DB9818AF40 /* ThrowAssertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F33EFE650B5CE4774260C8F19455E /* ThrowAssertion.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		3C98E2F10AB8B391598A2D46978A579F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DF21EF8268E32D359CD23F2CF3EFE3 /* Foundation.framework */; };
 		3CF032450F9569B48FC317E4971F34A0 /* Quick.h in Headers */ = {isa = PBXBuildFile; fileRef = 6137764203F68DD3C80397DF73F677AC /* Quick.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -184,6 +186,8 @@
 		39729ECD1DDCEFD300FC0ADD /* InternationalText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InternationalText.swift; path = DataTypes/Utility/InternationalText.swift; sourceTree = "<group>"; };
 		39729ECF1DDCF12400FC0ADD /* GeoPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GeoPosition.swift; path = DataTypes/Utility/GeoPosition.swift; sourceTree = "<group>"; };
 		39729ED11DDCF1F000FC0ADD /* WebLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebLink.swift; path = DataTypes/Utility/WebLink.swift; sourceTree = "<group>"; };
+		39729ED41DDD050D00FC0ADD /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Requests/Request.swift; sourceTree = "<group>"; };
+		39729ED61DDD054D00FC0ADD /* LocationInformationRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationInformationRequest.swift; path = Requests/LocationInformationRequest.swift; sourceTree = "<group>"; };
 		3B61E8D3E9D121174B375148D6C10C6E /* HooksPhase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HooksPhase.swift; path = Sources/Quick/Hooks/HooksPhase.swift; sourceTree = "<group>"; };
 		49AF9D9E9BF733396E9E801393E6C10F /* QCKDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QCKDSL.m; path = Sources/QuickObjectiveC/DSL/QCKDSL.m; sourceTree = "<group>"; };
 		4C6329DD1EE75A68AA931A2192C28C69 /* CwlCatchException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlCatchException.swift; path = Sources/Lib/CwlPreconditionTesting/CwlCatchException/CwlCatchException/CwlCatchException.swift; sourceTree = "<group>"; };
@@ -372,6 +376,15 @@
 			name = Utility;
 			sourceTree = "<group>";
 		};
+		39729ED31DDD04DD00FC0ADD /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				39729ED41DDD050D00FC0ADD /* Request.swift */,
+				39729ED61DDD054D00FC0ADD /* LocationInformationRequest.swift */,
+			);
+			name = Requests;
+			sourceTree = "<group>";
+		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -545,6 +558,7 @@
 			isa = PBXGroup;
 			children = (
 				39729EC71DDCB13200FC0ADD /* DataTypes */,
+				39729ED31DDD04DD00FC0ADD /* Requests */,
 				39729EC21DDCAEDA00FC0ADD /* Provider */,
 				13910BAD813772833E530E6C1203D024 /* Triassic.swift */,
 			);
@@ -885,6 +899,8 @@
 				F35BEB6FC6068EC202814D0F3DC1E0AB /* Triassic-dummy.m in Sources */,
 				39729ED01DDCF12400FC0ADD /* GeoPosition.swift in Sources */,
 				39729EC61DDCAEFE00FC0ADD /* Provider.swift in Sources */,
+				39729ED51DDD050D00FC0ADD /* Request.swift in Sources */,
+				39729ED71DDD054D00FC0ADD /* LocationInformationRequest.swift in Sources */,
 				E1BF72552D9AA3D6F1225E40DA5B33DC /* Triassic.swift in Sources */,
 				39729ECE1DDCEFD300FC0ADD /* InternationalText.swift in Sources */,
 			);
