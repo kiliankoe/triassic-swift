@@ -1,0 +1,23 @@
+{
+  "name": "Triassic",
+  "version": "0.1.0",
+  "summary": "A short description of Triassic.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kiliankoe/Triassic",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Kilian Koeltzsch": "me@kilian.io"
+  },
+  "source": {
+    "git": "https://github.com/kiliankoe/Triassic.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/kiliankoe",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Triassic/Classes/**/*"
+}
