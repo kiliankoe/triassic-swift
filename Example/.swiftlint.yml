@@ -1,0 +1,10 @@
+included:
+  - ../Triassic
+
+disabled_rules:
+  - line_length
+  - todo
+
+variable_name:
+  excluded:
+    - id
