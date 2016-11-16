@@ -30,6 +30,8 @@
 		346D12A0191B7B1428E9336C01B1285C /* AllPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E793A8549531332D1762623F08F9BF /* AllPass.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		36D5B784735E7480FEEED424EB627BB7 /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A924660943DF4DCD57E3A85BF6FB095 /* World.swift */; };
 		3808D1D986980045CF7DE9BA54DDE006 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DF21EF8268E32D359CD23F2CF3EFE3 /* Foundation.framework */; };
+		39729EC41DDCAEEE00FC0ADD /* VVOProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39729EC31DDCAEEE00FC0ADD /* VVOProvider.swift */; };
+		39729EC61DDCAEFE00FC0ADD /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39729EC51DDCAEFE00FC0ADD /* Provider.swift */; };
 		3A9DE5E02A5ADDF4742F73DB9818AF40 /* ThrowAssertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F33EFE650B5CE4774260C8F19455E /* ThrowAssertion.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		3C98E2F10AB8B391598A2D46978A579F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DF21EF8268E32D359CD23F2CF3EFE3 /* Foundation.framework */; };
 		3CF032450F9569B48FC317E4971F34A0 /* Quick.h in Headers */ = {isa = PBXBuildFile; fileRef = 6137764203F68DD3C80397DF73F677AC /* Quick.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -170,6 +172,8 @@
 		32343C8281B13DD7FE4F6D40BDF37C6A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32DF21EF8268E32D359CD23F2CF3EFE3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		33C4401213EBEC6BC1797D974E52767D /* AssertionRecorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionRecorder.swift; path = Sources/Nimble/Adapters/AssertionRecorder.swift; sourceTree = "<group>"; };
+		39729EC31DDCAEEE00FC0ADD /* VVOProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VVOProvider.swift; path = Provider/VVOProvider.swift; sourceTree = "<group>"; };
+		39729EC51DDCAEFE00FC0ADD /* Provider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Provider.swift; path = Provider/Provider.swift; sourceTree = "<group>"; };
 		3B61E8D3E9D121174B375148D6C10C6E /* HooksPhase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HooksPhase.swift; path = Sources/Quick/Hooks/HooksPhase.swift; sourceTree = "<group>"; };
 		49AF9D9E9BF733396E9E801393E6C10F /* QCKDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QCKDSL.m; path = Sources/QuickObjectiveC/DSL/QCKDSL.m; sourceTree = "<group>"; };
 		4C6329DD1EE75A68AA931A2192C28C69 /* CwlCatchException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlCatchException.swift; path = Sources/Lib/CwlPreconditionTesting/CwlCatchException/CwlCatchException/CwlCatchException.swift; sourceTree = "<group>"; };
@@ -327,6 +331,15 @@
 			);
 			name = "Pods-Triassic_Tests";
 			path = "Target Support Files/Pods-Triassic_Tests";
+			sourceTree = "<group>";
+		};
+		39729EC21DDCAEDA00FC0ADD /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				39729EC51DDCAEFE00FC0ADD /* Provider.swift */,
+				39729EC31DDCAEEE00FC0ADD /* VVOProvider.swift */,
+			);
+			name = Provider;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -501,6 +514,7 @@
 		D7C8F00F8CA4A27D278AC54940E4E8F7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				39729EC21DDCAEDA00FC0ADD /* Provider */,
 				13910BAD813772833E530E6C1203D024 /* Triassic.swift */,
 			);
 			path = Classes;
@@ -833,7 +847,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39729EC41DDCAEEE00FC0ADD /* VVOProvider.swift in Sources */,
 				F35BEB6FC6068EC202814D0F3DC1E0AB /* Triassic-dummy.m in Sources */,
+				39729EC61DDCAEFE00FC0ADD /* Provider.swift in Sources */,
 				E1BF72552D9AA3D6F1225E40DA5B33DC /* Triassic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
