@@ -10,7 +10,7 @@ import Foundation
 import CoreLocation
 
 public protocol Provider {
-    var id: String { get }
+    var id: Common.OperatorCode { get }
     var baseURL: URL { get }
     var center: CLLocationCoordinate2D { get }
 }

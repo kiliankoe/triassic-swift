@@ -32,15 +32,13 @@
 		3808D1D986980045CF7DE9BA54DDE006 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DF21EF8268E32D359CD23F2CF3EFE3 /* Foundation.framework */; };
 		39729EC41DDCAEEE00FC0ADD /* VVOProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39729EC31DDCAEEE00FC0ADD /* VVOProvider.swift */; };
 		39729EC61DDCAEFE00FC0ADD /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39729EC51DDCAEFE00FC0ADD /* Provider.swift */; };
-		39729ECA1DDCB30C00FC0ADD /* SimpleUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39729EC91DDCB30C00FC0ADD /* SimpleUtility.swift */; };
-		39729ECC1DDCE5E500FC0ADD /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39729ECB1DDCE5E500FC0ADD /* Utility.swift */; };
+		39729ECA1DDCB30C00FC0ADD /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39729EC91DDCB30C00FC0ADD /* Utility.swift */; };
 		39729ECE1DDCEFD300FC0ADD /* InternationalText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39729ECD1DDCEFD300FC0ADD /* InternationalText.swift */; };
 		39729ED01DDCF12400FC0ADD /* GeoPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39729ECF1DDCF12400FC0ADD /* GeoPosition.swift */; };
 		39729ED21DDCF1F000FC0ADD /* WebLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39729ED11DDCF1F000FC0ADD /* WebLink.swift */; };
 		39729ED51DDD050D00FC0ADD /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39729ED41DDD050D00FC0ADD /* Request.swift */; };
 		39729ED71DDD054D00FC0ADD /* LocationInformationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39729ED61DDD054D00FC0ADD /* LocationInformationRequest.swift */; };
-		39729EDA1DDD06AB00FC0ADD /* ModesSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39729ED91DDD06AB00FC0ADD /* ModesSupport.swift */; };
-		39729EDC1DDD17C400FC0ADD /* SimpleModesSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39729EDB1DDD17C400FC0ADD /* SimpleModesSupport.swift */; };
+		39729EDC1DDD17C400FC0ADD /* ModesSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39729EDB1DDD17C400FC0ADD /* ModesSupport.swift */; };
 		39729EDE1DDD225C00FC0ADD /* IndividualTransportOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39729EDD1DDD225C00FC0ADD /* IndividualTransportOptions.swift */; };
 		39729EE31DDD2C4000FC0ADD /* LocationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39729EE21DDD2C4000FC0ADD /* LocationType.swift */; };
 		39729EE51DDD2C7A00FC0ADD /* LocationUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39729EE41DDD2C7A00FC0ADD /* LocationUsage.swift */; };
@@ -49,6 +47,7 @@
 		39729EED1DDD3A2800FC0ADD /* GeoCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39729EEC1DDD3A2800FC0ADD /* GeoCircle.swift */; };
 		39729EEF1DDD3A7D00FC0ADD /* GeoRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39729EEE1DDD3A7D00FC0ADD /* GeoRectangle.swift */; };
 		39729EF11DDD3B2B00FC0ADD /* GeoArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39729EF01DDD3B2B00FC0ADD /* GeoArea.swift */; };
+		39729F011DDDC25400FC0ADD /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39729F001DDDC25400FC0ADD /* Common.swift */; };
 		3A9DE5E02A5ADDF4742F73DB9818AF40 /* ThrowAssertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F33EFE650B5CE4774260C8F19455E /* ThrowAssertion.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		3C98E2F10AB8B391598A2D46978A579F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DF21EF8268E32D359CD23F2CF3EFE3 /* Foundation.framework */; };
 		3CF032450F9569B48FC317E4971F34A0 /* Quick.h in Headers */ = {isa = PBXBuildFile; fileRef = 6137764203F68DD3C80397DF73F677AC /* Quick.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -191,15 +190,13 @@
 		33C4401213EBEC6BC1797D974E52767D /* AssertionRecorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionRecorder.swift; path = Sources/Nimble/Adapters/AssertionRecorder.swift; sourceTree = "<group>"; };
 		39729EC31DDCAEEE00FC0ADD /* VVOProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VVOProvider.swift; path = Provider/VVOProvider.swift; sourceTree = "<group>"; };
 		39729EC51DDCAEFE00FC0ADD /* Provider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Provider.swift; path = Provider/Provider.swift; sourceTree = "<group>"; };
-		39729EC91DDCB30C00FC0ADD /* SimpleUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimpleUtility.swift; path = DataTypes/Utility/SimpleUtility.swift; sourceTree = "<group>"; };
-		39729ECB1DDCE5E500FC0ADD /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utility.swift; path = DataTypes/Utility/Utility.swift; sourceTree = "<group>"; };
+		39729EC91DDCB30C00FC0ADD /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utility.swift; path = DataTypes/Utility/Utility.swift; sourceTree = "<group>"; };
 		39729ECD1DDCEFD300FC0ADD /* InternationalText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InternationalText.swift; path = DataTypes/Utility/InternationalText.swift; sourceTree = "<group>"; };
 		39729ECF1DDCF12400FC0ADD /* GeoPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GeoPosition.swift; path = DataTypes/Utility/GeoPosition.swift; sourceTree = "<group>"; };
 		39729ED11DDCF1F000FC0ADD /* WebLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebLink.swift; path = DataTypes/Utility/WebLink.swift; sourceTree = "<group>"; };
 		39729ED41DDD050D00FC0ADD /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Requests/Request.swift; sourceTree = "<group>"; };
 		39729ED61DDD054D00FC0ADD /* LocationInformationRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationInformationRequest.swift; path = Requests/LocationInformationRequest.swift; sourceTree = "<group>"; };
-		39729ED91DDD06AB00FC0ADD /* ModesSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModesSupport.swift; path = DataTypes/ModesSupport/ModesSupport.swift; sourceTree = "<group>"; };
-		39729EDB1DDD17C400FC0ADD /* SimpleModesSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimpleModesSupport.swift; path = DataTypes/ModesSupport/SimpleModesSupport.swift; sourceTree = "<group>"; };
+		39729EDB1DDD17C400FC0ADD /* ModesSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModesSupport.swift; path = DataTypes/ModesSupport/ModesSupport.swift; sourceTree = "<group>"; };
 		39729EDD1DDD225C00FC0ADD /* IndividualTransportOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IndividualTransportOptions.swift; path = DataTypes/ModesSupport/IndividualTransportOptions.swift; sourceTree = "<group>"; };
 		39729EE21DDD2C4000FC0ADD /* LocationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationType.swift; path = DataTypes/LocationInformation/LocationType.swift; sourceTree = "<group>"; };
 		39729EE41DDD2C7A00FC0ADD /* LocationUsage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationUsage.swift; path = DataTypes/LocationInformation/LocationUsage.swift; sourceTree = "<group>"; };
@@ -208,6 +205,7 @@
 		39729EEC1DDD3A2800FC0ADD /* GeoCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GeoCircle.swift; path = DataTypes/LocationInformation/GeoCircle.swift; sourceTree = "<group>"; };
 		39729EEE1DDD3A7D00FC0ADD /* GeoRectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GeoRectangle.swift; path = DataTypes/LocationInformation/GeoRectangle.swift; sourceTree = "<group>"; };
 		39729EF01DDD3B2B00FC0ADD /* GeoArea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GeoArea.swift; path = DataTypes/LocationInformation/GeoArea.swift; sourceTree = "<group>"; };
+		39729F001DDDC25400FC0ADD /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Common.swift; path = DataTypes/Common/Common.swift; sourceTree = "<group>"; };
 		3B61E8D3E9D121174B375148D6C10C6E /* HooksPhase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HooksPhase.swift; path = Sources/Quick/Hooks/HooksPhase.swift; sourceTree = "<group>"; };
 		49AF9D9E9BF733396E9E801393E6C10F /* QCKDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QCKDSL.m; path = Sources/QuickObjectiveC/DSL/QCKDSL.m; sourceTree = "<group>"; };
 		4C6329DD1EE75A68AA931A2192C28C69 /* CwlCatchException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlCatchException.swift; path = Sources/Lib/CwlPreconditionTesting/CwlCatchException/CwlCatchException/CwlCatchException.swift; sourceTree = "<group>"; };
@@ -379,9 +377,15 @@
 		39729EC71DDCB13200FC0ADD /* DataTypes */ = {
 			isa = PBXGroup;
 			children = (
-				39729EF21DDDB11C00FC0ADD /* Internal */,
 				39729EC81DDCB2F100FC0ADD /* Utility */,
 				39729ED81DDD067B00FC0ADD /* ModesSupport */,
+				39729EF51DDDB7A400FC0ADD /* Common */,
+				39729EF61DDDB7A900FC0ADD /* LocationSupport */,
+				39729EF71DDDB7B600FC0ADD /* JourneySupport */,
+				39729EF81DDDB7DE00FC0ADD /* FacilitySupport */,
+				39729EF91DDDB7E500FC0ADD /* SituationSupport */,
+				39729EFA1DDDB7ED00FC0ADD /* RequestSupport */,
+				39729EFB1DDDB7F400FC0ADD /* FaresSupport */,
 				39729EE11DDD2C1000FC0ADD /* LocationInformation */,
 			);
 			name = DataTypes;
@@ -390,8 +394,7 @@
 		39729EC81DDCB2F100FC0ADD /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				39729ECB1DDCE5E500FC0ADD /* Utility.swift */,
-				39729EC91DDCB30C00FC0ADD /* SimpleUtility.swift */,
+				39729EC91DDCB30C00FC0ADD /* Utility.swift */,
 				39729ECD1DDCEFD300FC0ADD /* InternationalText.swift */,
 				39729ECF1DDCF12400FC0ADD /* GeoPosition.swift */,
 				39729ED11DDCF1F000FC0ADD /* WebLink.swift */,
@@ -411,8 +414,7 @@
 		39729ED81DDD067B00FC0ADD /* ModesSupport */ = {
 			isa = PBXGroup;
 			children = (
-				39729ED91DDD06AB00FC0ADD /* ModesSupport.swift */,
-				39729EDB1DDD17C400FC0ADD /* SimpleModesSupport.swift */,
+				39729EDB1DDD17C400FC0ADD /* ModesSupport.swift */,
 				39729EDD1DDD225C00FC0ADD /* IndividualTransportOptions.swift */,
 			);
 			name = ModesSupport;
@@ -432,11 +434,54 @@
 			name = LocationInformation;
 			sourceTree = "<group>";
 		};
-		39729EF21DDDB11C00FC0ADD /* Internal */ = {
+		39729EF51DDDB7A400FC0ADD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				39729F001DDDC25400FC0ADD /* Common.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		39729EF61DDDB7A900FC0ADD /* LocationSupport */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Internal;
+			name = LocationSupport;
+			sourceTree = "<group>";
+		};
+		39729EF71DDDB7B600FC0ADD /* JourneySupport */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = JourneySupport;
+			sourceTree = "<group>";
+		};
+		39729EF81DDDB7DE00FC0ADD /* FacilitySupport */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = FacilitySupport;
+			sourceTree = "<group>";
+		};
+		39729EF91DDDB7E500FC0ADD /* SituationSupport */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SituationSupport;
+			sourceTree = "<group>";
+		};
+		39729EFA1DDDB7ED00FC0ADD /* RequestSupport */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = RequestSupport;
+			sourceTree = "<group>";
+		};
+		39729EFB1DDDB7F400FC0ADD /* FaresSupport */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = FaresSupport;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -946,19 +991,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39729EDC1DDD17C400FC0ADD /* SimpleModesSupport.swift in Sources */,
+				39729F011DDDC25400FC0ADD /* Common.swift in Sources */,
+				39729EDC1DDD17C400FC0ADD /* ModesSupport.swift in Sources */,
 				39729EEF1DDD3A7D00FC0ADD /* GeoRectangle.swift in Sources */,
 				39729EE31DDD2C4000FC0ADD /* LocationType.swift in Sources */,
 				39729EEB1DDD3A1000FC0ADD /* GeoRestriction.swift in Sources */,
 				39729ED21DDCF1F000FC0ADD /* WebLink.swift in Sources */,
-				39729ECA1DDCB30C00FC0ADD /* SimpleUtility.swift in Sources */,
+				39729ECA1DDCB30C00FC0ADD /* Utility.swift in Sources */,
 				39729EF11DDD3B2B00FC0ADD /* GeoArea.swift in Sources */,
 				39729EC41DDCAEEE00FC0ADD /* VVOProvider.swift in Sources */,
-				39729ECC1DDCE5E500FC0ADD /* Utility.swift in Sources */,
 				F35BEB6FC6068EC202814D0F3DC1E0AB /* Triassic-dummy.m in Sources */,
 				39729EED1DDD3A2800FC0ADD /* GeoCircle.swift in Sources */,
 				39729ED01DDCF12400FC0ADD /* GeoPosition.swift in Sources */,
-				39729EDA1DDD06AB00FC0ADD /* ModesSupport.swift in Sources */,
 				39729EC61DDCAEFE00FC0ADD /* Provider.swift in Sources */,
 				39729ED51DDD050D00FC0ADD /* Request.swift in Sources */,
 				39729ED71DDD054D00FC0ADD /* LocationInformationRequest.swift in Sources */,
