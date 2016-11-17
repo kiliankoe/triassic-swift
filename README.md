@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/Triassic.svg?style=flat-square)](http://cocoapods.org/pods/Triassic)
 [![Platform](https://img.shields.io/cocoapods/p/Triassic.svg?style=flat-square)](http://cocoapods.org/pods/Triassic)
 [![CocoaPods](https://img.shields.io/cocoapods/metrics/doc-percent/Triassic.svg?style=flat-square)](http://cocoadocs.org/docsets/Triassic)
+[![Codecov](https://img.shields.io/codecov/c/github/triassic-park/triassic-swift.svg?style=flat-square)](https://codecov.io/gh/triassic-park/triassic-swift)
 
 Triassic aims to be a fully-featured client library for TRIAS systems enabling you to access public transport data from compatible providers right from within your mobile app or other service written in Swift.
 
