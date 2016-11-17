@@ -379,6 +379,7 @@
 		39729EC71DDCB13200FC0ADD /* DataTypes */ = {
 			isa = PBXGroup;
 			children = (
+				39729EF21DDDB11C00FC0ADD /* Internal */,
 				39729EC81DDCB2F100FC0ADD /* Utility */,
 				39729ED81DDD067B00FC0ADD /* ModesSupport */,
 				39729EE11DDD2C1000FC0ADD /* LocationInformation */,
@@ -429,6 +430,13 @@
 				39729EF01DDD3B2B00FC0ADD /* GeoArea.swift */,
 			);
 			name = LocationInformation;
+			sourceTree = "<group>";
+		};
+		39729EF21DDDB11C00FC0ADD /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Internal;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
