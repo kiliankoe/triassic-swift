@@ -8,3 +8,4 @@ disabled_rules:
 variable_name:
   excluded:
     - id
+    - to
