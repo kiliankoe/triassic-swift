@@ -53,6 +53,8 @@
 		39729F071DDDC6E700FC0ADD /* OperatorFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39729F061DDDC6E700FC0ADD /* OperatorFilter.swift */; };
 		39729F091DDDCB3100FC0ADD /* LineDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39729F081DDDCB3100FC0ADD /* LineDirection.swift */; };
 		39729F0B1DDDCB9A00FC0ADD /* LineDirectionFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39729F0A1DDDCB9A00FC0ADD /* LineDirectionFilter.swift */; };
+		39729F0D1DDDD9D500FC0ADD /* SharingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39729F0C1DDDD9D500FC0ADD /* SharingService.swift */; };
+		39729F0F1DDDF1F600FC0ADD /* Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39729F0E1DDDF1F600FC0ADD /* Mode.swift */; };
 		3A9DE5E02A5ADDF4742F73DB9818AF40 /* ThrowAssertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F33EFE650B5CE4774260C8F19455E /* ThrowAssertion.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		3C98E2F10AB8B391598A2D46978A579F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DF21EF8268E32D359CD23F2CF3EFE3 /* Foundation.framework */; };
 		3CF032450F9569B48FC317E4971F34A0 /* Quick.h in Headers */ = {isa = PBXBuildFile; fileRef = 6137764203F68DD3C80397DF73F677AC /* Quick.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -216,6 +218,8 @@
 		39729F061DDDC6E700FC0ADD /* OperatorFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OperatorFilter.swift; path = DataTypes/Common/OperatorFilter.swift; sourceTree = "<group>"; };
 		39729F081DDDCB3100FC0ADD /* LineDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LineDirection.swift; path = DataTypes/Common/LineDirection.swift; sourceTree = "<group>"; };
 		39729F0A1DDDCB9A00FC0ADD /* LineDirectionFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LineDirectionFilter.swift; path = DataTypes/Common/LineDirectionFilter.swift; sourceTree = "<group>"; };
+		39729F0C1DDDD9D500FC0ADD /* SharingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SharingService.swift; path = DataTypes/Common/SharingService.swift; sourceTree = "<group>"; };
+		39729F0E1DDDF1F600FC0ADD /* Mode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Mode.swift; path = DataTypes/ModesSupport/Mode.swift; sourceTree = "<group>"; };
 		3B61E8D3E9D121174B375148D6C10C6E /* HooksPhase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HooksPhase.swift; path = Sources/Quick/Hooks/HooksPhase.swift; sourceTree = "<group>"; };
 		49AF9D9E9BF733396E9E801393E6C10F /* QCKDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QCKDSL.m; path = Sources/QuickObjectiveC/DSL/QCKDSL.m; sourceTree = "<group>"; };
 		4C6329DD1EE75A68AA931A2192C28C69 /* CwlCatchException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlCatchException.swift; path = Sources/Lib/CwlPreconditionTesting/CwlCatchException/CwlCatchException/CwlCatchException.swift; sourceTree = "<group>"; };
@@ -426,6 +430,7 @@
 			children = (
 				39729EDB1DDD17C400FC0ADD /* ModesSupport.swift */,
 				39729EDD1DDD225C00FC0ADD /* IndividualTransportOptions.swift */,
+				39729F0E1DDDF1F600FC0ADD /* Mode.swift */,
 			);
 			name = ModesSupport;
 			sourceTree = "<group>";
@@ -453,6 +458,7 @@
 				39729F061DDDC6E700FC0ADD /* OperatorFilter.swift */,
 				39729F081DDDCB3100FC0ADD /* LineDirection.swift */,
 				39729F0A1DDDCB9A00FC0ADD /* LineDirectionFilter.swift */,
+				39729F0C1DDDD9D500FC0ADD /* SharingService.swift */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -1014,6 +1020,7 @@
 				39729EEB1DDD3A1000FC0ADD /* GeoRestriction.swift in Sources */,
 				39729ED21DDCF1F000FC0ADD /* WebLink.swift in Sources */,
 				39729F091DDDCB3100FC0ADD /* LineDirection.swift in Sources */,
+				39729F0F1DDDF1F600FC0ADD /* Mode.swift in Sources */,
 				39729ECA1DDCB30C00FC0ADD /* Utility.swift in Sources */,
 				39729F071DDDC6E700FC0ADD /* OperatorFilter.swift in Sources */,
 				39729F0B1DDDCB9A00FC0ADD /* LineDirectionFilter.swift in Sources */,
@@ -1022,6 +1029,7 @@
 				39729EC41DDCAEEE00FC0ADD /* VVOProvider.swift in Sources */,
 				F35BEB6FC6068EC202814D0F3DC1E0AB /* Triassic-dummy.m in Sources */,
 				39729EED1DDD3A2800FC0ADD /* GeoCircle.swift in Sources */,
+				39729F0D1DDDD9D500FC0ADD /* SharingService.swift in Sources */,
 				39729ED01DDCF12400FC0ADD /* GeoPosition.swift in Sources */,
 				39729EC61DDCAEFE00FC0ADD /* Provider.swift in Sources */,
 				39729ED51DDD050D00FC0ADD /* Request.swift in Sources */,
