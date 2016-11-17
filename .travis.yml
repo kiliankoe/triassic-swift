@@ -9,7 +9,7 @@ language: objective-c
 
 before_install:
 - gem install cocoapods
-- pod repo update
+- pod repo update --silent
 - pod install --project-directory=Example
 
 script:
