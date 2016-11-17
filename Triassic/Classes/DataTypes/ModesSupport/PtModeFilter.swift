@@ -17,6 +17,8 @@ public extension ModesSupport {
         /// ÖV-Verkehrsmitteltypen.
         public let ptMode: [PtMode]
 
+        // FIXME: Insert PtSubmodeChoice as ÖV-Untertypen.
+
         init(exclude: Bool = true, ptMode: [PtMode]) {
             self.exclude = exclude
             self.ptMode = ptMode
