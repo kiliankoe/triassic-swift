@@ -177,7 +177,7 @@
 		104135CFA58204DC8EBF1167E28F5206 /* BeLessThanOrEqual.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThanOrEqual.swift; path = Sources/Nimble/Matchers/BeLessThanOrEqual.swift; sourceTree = "<group>"; };
 		10FFD83D547B8B236BCBB6812BC65762 /* BeIdenticalTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeIdenticalTo.swift; path = Sources/Nimble/Matchers/BeIdenticalTo.swift; sourceTree = "<group>"; };
 		121014C803EAD4DC51829FDA23BCADA6 /* ExampleHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleHooks.swift; path = Sources/Quick/Hooks/ExampleHooks.swift; sourceTree = "<group>"; };
-		13910BAD813772833E530E6C1203D024 /* Triassic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Triassic.swift; sourceTree = "<group>"; };
+		13910BAD813772833E530E6C1203D024 /* Triassic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Triassic.swift; path = Triassic/Triassic.swift; sourceTree = "<group>"; };
 		14537A5EC332D4F5F8A2D483B328CC37 /* Nimble.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Nimble.modulemap; sourceTree = "<group>"; };
 		18CEB9B86795A0FDAA385DB81A49672B /* FailureMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FailureMessage.swift; path = Sources/Nimble/FailureMessage.swift; sourceTree = "<group>"; };
 		1994804C15E018526C78E3AA0DEFF054 /* QuickConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickConfiguration.h; path = Sources/QuickObjectiveC/Configuration/QuickConfiguration.h; sourceTree = "<group>"; };
@@ -381,6 +381,14 @@
 			);
 			name = "Pods-Triassic_Tests";
 			path = "Target Support Files/Pods-Triassic_Tests";
+			sourceTree = "<group>";
+		};
+		396DC1FC1DE33C5B00C9C522 /* Triassic */ = {
+			isa = PBXGroup;
+			children = (
+				13910BAD813772833E530E6C1203D024 /* Triassic.swift */,
+			);
+			name = Triassic;
 			sourceTree = "<group>";
 		};
 		39729EC21DDCAEDA00FC0ADD /* Provider */ = {
@@ -686,7 +694,7 @@
 				39729EC71DDCB13200FC0ADD /* DataTypes */,
 				39729ED31DDD04DD00FC0ADD /* Requests */,
 				39729EC21DDCAEDA00FC0ADD /* Provider */,
-				13910BAD813772833E530E6C1203D024 /* Triassic.swift */,
+				396DC1FC1DE33C5B00C9C522 /* Triassic */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
