@@ -105,9 +105,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Triassic_Tests" */;
 			buildPhases = (
+				C2C486B4EADF698CD1B0EDF2 /* [CP] Check Pods Manifest.lock */,
 				39729EDF1DDD24B300FC0ADD /* Warn on TODOs/FIXMEs */,
 				39729EE01DDD264800FC0ADD /* Run swiftlint */,
-				C2C486B4EADF698CD1B0EDF2 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
