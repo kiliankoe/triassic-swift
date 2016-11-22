@@ -21,10 +21,10 @@ public extension Common {
         let sharingModel: SharingModel?
 
         /// Typische Zeit, die ein Benutzer einplanen muss, um sich am System anzumelden und das Fahrzeug in Fahrbereitschaft zu versetzen.
-        let timeBufferBefore: Int? // FIXME: Should be `xs:duration`, is also wrapped in `SharingServiceUsage` somehow according to spec
+        let timeBufferBefore: XS.Duration?
 
         /// Typische Zeit, die ein Benutzer einplanen muss, um das Fahrzeug ordnungsgemäß abzustellen, zu verschließen und sich am System abzumelden.
-        let timeBufferAfter: Int? // FIXME: Should be `xs:duration`, is also wrapped like timeBufferBefore
+        let timeBufferAfter: XS.Duration?
 
         /// Link zu Web-Seite mit weiterführenden Informationen.
         let infoURL: Utility.WebLink?

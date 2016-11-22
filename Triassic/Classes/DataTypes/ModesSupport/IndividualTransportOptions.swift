@@ -18,13 +18,13 @@ public extension ModesSupport {
         let maxDistance: Utility.Distance?
 
         /// Maximale Zeitdauer, bis zu der die Nutzung dieses IV-Typs zugelassen ist.
-        let maxDuration: Int? // FIXME: Should be `xs:duration`
+        let maxDuration: XS.Duration?
 
         /// Minimale Distanz, ab der die Nutzung dieses IV-Typs zugelassen ist.
         let minDistance: Utility.Distance?
 
         /// Minimale Zeitdauer, ab der die Nutzung dieses IV-Typs zugelassen ist.
-        let minDuration: Int? // FIXME: Should be `xs:duration`
+        let minDuration: XS.Duration?
 
         /// Relative Geschwindigkeit in Prozent. Wert 100 stellt Standardgeschwindigkeit dar. Werte kleiner 100 verringern die Geschwindigkeit, Werte größer 100 vergrößern die Geschwindigkeit anteilig.
         let speed: Utility.OpenPercent?

@@ -13,26 +13,26 @@ public enum Common {
     public typealias ParticipantCode = String
 
     /// ID eines Verkehrsunternehmers.
-    public typealias OperatorCode = String // FIXME: Should be `xs:NMTOKEN`, like all others below as well
+    public typealias OperatorCode = XS.NameToken
 
     /// ID einer Linie.
-    public typealias LineCode = String
+    public typealias LineCode = XS.NameToken
 
     /// ID einer Linienrichtung.
-    public typealias DirectionCode = String
+    public typealias DirectionCode = XS.NameToken
 
     /// ID einer Fahrplanfahrt.
-    public typealias JourneyCode = String
+    public typealias JourneyCode = XS.NameToken
 
     /// ID eines Fahrzeugs.
-    public typealias VehicleCode = String
+    public typealias VehicleCode = XS.NameToken
 
     /// ID einer Einrichtung/Ausstattung.
-    public typealias FacilityCode = String
+    public typealias FacilityCode = XS.NameToken
 
     /// ID einer verantwortlichen Organisation (Eigentümer).
-    public typealias OwnerCode = String
+    public typealias OwnerCode = XS.NameToken
 
     /// ID eines Verkehrstags.
-    public typealias OperatingDayCode = String
+    public typealias OperatingDayCode = XS.NameToken
 }

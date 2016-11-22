@@ -15,9 +15,9 @@ public extension Utility {
         public let text: String
 
         /// ID des Texts.
-        public let textID: String? // FIXME: Should be `xs:NMTOKEN`, whatever that is
+        public let textID: XS.NameToken?
 
         /// Sprache, in der der Text verfasst ist.
-        public let language: String? // FIXME: Should be `xs:language`
+        public let language: XS.Language?
     }
 }

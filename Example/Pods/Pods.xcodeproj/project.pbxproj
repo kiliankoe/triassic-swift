@@ -46,6 +46,7 @@
 		376772DC5096A8536D4CC839BFC4C42B /* OperatorFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ED575CBEACD89F212065AB777FA492 /* OperatorFilter.swift */; };
 		3808D1D986980045CF7DE9BA54DDE006 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C88B461B5A367C2231170DBE1720CE4E /* Foundation.framework */; };
 		396DC1FE1DE36B2700C9C522 /* XMLElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396DC1FD1DE36B2700C9C522 /* XMLElement.swift */; };
+		396DC2011DE4278E00C9C522 /* XS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396DC2001DE4278E00C9C522 /* XS.swift */; };
 		3A9DE5E02A5ADDF4742F73DB9818AF40 /* ThrowAssertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7713575CB52D984DA43221CFF17EAB /* ThrowAssertion.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		3B31F5B762430B3DE2676B8F772F3D63 /* World+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044E12BCC015C50037DE73B66A63091B /* World+DSL.swift */; };
 		3FCC7E9E9919EB62D94A8B29A1ED13E0 /* NSBundle+CurrentTestBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0558298FEF42B1F584C8C7CA108FF50D /* NSBundle+CurrentTestBundle.swift */; };
@@ -226,6 +227,7 @@
 		36F3A2A12933300A05964C8C9ED8B434 /* BeGreaterThanOrEqualTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThanOrEqualTo.swift; path = Sources/Nimble/Matchers/BeGreaterThanOrEqualTo.swift; sourceTree = "<group>"; };
 		370ACB5D8D82DFE2690DE721A8311C5B /* Functional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functional.swift; path = Sources/Nimble/Utils/Functional.swift; sourceTree = "<group>"; };
 		396DC1FD1DE36B2700C9C522 /* XMLElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLElement.swift; sourceTree = "<group>"; };
+		396DC2001DE4278E00C9C522 /* XS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XS.swift; path = XS/XS.swift; sourceTree = "<group>"; };
 		3A49986A48334E8364DC072F7BAA9971 /* AEXML-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AEXML-umbrella.h"; sourceTree = "<group>"; };
 		3A9FC8CA666F40D8614E10E18F809042 /* NMBExceptionCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBExceptionCapture.h; path = Sources/NimbleObjectiveC/NMBExceptionCapture.h; sourceTree = "<group>"; };
 		3CBEC6B139C54ECE13C49D52B814928F /* QCKDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QCKDSL.m; path = Sources/QuickObjectiveC/DSL/QCKDSL.m; sourceTree = "<group>"; };
@@ -589,6 +591,14 @@
 			path = "../Target Support Files/Quick";
 			sourceTree = "<group>";
 		};
+		396DC1FF1DE4272A00C9C522 /* XS */ = {
+			isa = PBXGroup;
+			children = (
+				396DC2001DE4278E00C9C522 /* XS.swift */,
+			);
+			name = XS;
+			sourceTree = "<group>";
+		};
 		3BF8D32294695CAD5F6BEABDB4120D83 /* Triassic */ = {
 			isa = PBXGroup;
 			children = (
@@ -759,6 +769,7 @@
 		CCAA17574E9715C1CE9CCC4750201134 /* DataTypes */ = {
 			isa = PBXGroup;
 			children = (
+				396DC1FF1DE4272A00C9C522 /* XS */,
 				22A89F2012CBA344739900D263C9A550 /* Common */,
 				7BC0FB3242220949C5D09988922D2734 /* LocationInformation */,
 				3479A3D279CDFA36281BE40C4FD95945 /* ModesSupport */,
@@ -986,6 +997,7 @@
 				CCC60B7E8F8B934EC1DE0A157C9613D7 /* GeoArea.swift in Sources */,
 				96B2E7106A386F7523819E705B5EC659 /* GeoCircle.swift in Sources */,
 				42780486721CAEEF5FDD8BF7212EFE0F /* GeoPosition.swift in Sources */,
+				396DC2011DE4278E00C9C522 /* XS.swift in Sources */,
 				83656466301B0BA17B1A3DFCE0A5C2D2 /* GeoRectangle.swift in Sources */,
 				A726B47E68BE06385EFAAAE01CD8DD91 /* GeoRestriction.swift in Sources */,
 				70446D1B46FD92AD2BB52C09C9C93364 /* IndividualTransportOptions.swift in Sources */,
