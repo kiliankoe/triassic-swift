@@ -35,6 +35,8 @@ Or via Carthage, if you should so prefer. In that case add the following to your
 github "triassic-park/triassic-swift"
 ```
 
+Support for Swift Package Manager should in theory be there as well, but there's still [some quirks](https://github.com/triassic-park/triassic-swift/issues?q=is%3Aopen+is%3Aissue+label%3Aswiftpm) to be worked out.
+
 ## Quick Start
 
 [WIP]
