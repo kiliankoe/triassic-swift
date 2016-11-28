@@ -5,16 +5,15 @@
 osx_image: xcode8
 language: objective-c
 
-cache: cocoapods
-podfile: Example/Podfile
-
 before_install:
-- gem install cocoapods
-# - pod install --project-directory=Example
+- brew update
+- brew outdated xctool || brew upgrade xctool
+- brew install carthage
 
 script:
-- set -o pipefail && xcodebuild test -workspace Example/Triassic.xcworkspace -scheme Triassic-Example -destination 'platform=iOS Simulator,name=iPhone 7,OS=10.0' ONLY_ACTIVE_ARCH=NO | xcpretty
-- pod lib lint
+- carthage bootstrap --platform Mac
+- xcodebuild
+- xcodebuild -scheme Triassic-macOS -target Triassic-macOS -configuration release
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
