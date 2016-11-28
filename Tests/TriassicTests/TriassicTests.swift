@@ -28,9 +28,7 @@ import XCTest
 
 class TriassicTests: XCTestCase {
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        XCTAssertEqual(Triassic.text, "Hello, World!")
+        XCTAssertEqual(Triassic.play(), "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\n<Trias xmlns:siri=\"http://www.siri.org.uk/siri\" version=\"1.0\" xmlns=\"trias\" />")
     }
 }
 

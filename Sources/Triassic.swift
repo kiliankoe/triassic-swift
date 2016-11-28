@@ -10,11 +10,11 @@ import Foundation
 import AEXML
 
 public class Triassic {
-    static func play() {
+    static func play() -> String {
         let doc = AEXMLDocument()
         let attributes = ["xmlns": "trias", "xmlns:siri": "http://www.siri.org.uk/siri", "version": "1.0"]
         let _ = doc.addChild(name: "Trias", attributes: attributes)
 
-        print(doc.xml)
+        return doc.xml
     }
 }
