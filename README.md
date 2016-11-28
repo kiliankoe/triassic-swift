@@ -15,7 +15,7 @@ The name comes from *Trias* being the German name for the [Triassic](https://en.
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+[WIP]
 
 ## Requirements
 
