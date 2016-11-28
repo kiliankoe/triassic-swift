@@ -7,13 +7,13 @@ language: objective-c
 
 before_install:
 - brew update
-- brew outdated xctool || brew upgrade xctool
-- brew install carthage
+- gem install xcpretty
+- brew outdated carthage || brew upgrade carthage
 
 script:
 - carthage bootstrap --platform Mac
-- xcodebuild
-- xcodebuild -scheme Triassic-macOS -target Triassic-macOS -configuration release
+- xcodebuild | xcpretty
+- xcodebuild -scheme Triassic-macOS -target Triassic-macOS -configuration release | xcpretty
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
