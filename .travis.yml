@@ -11,7 +11,7 @@ before_install:
 - brew outdated carthage || brew upgrade carthage
 
 script:
-- carthage bootstrap --platform Mac
+- carthage bootstrap
 - xcodebuild | xcpretty
 - xcodebuild -scheme Triassic-macOS -target Triassic-macOS -configuration release | xcpretty
 
