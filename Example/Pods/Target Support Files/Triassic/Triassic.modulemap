@@ -1,6 +1,0 @@
-framework module Triassic {
-  umbrella header "Triassic-umbrella.h"
-
-  export *
-  module * { export * }
-}
