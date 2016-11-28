@@ -14,6 +14,9 @@ script:
 - carthage bootstrap
 - xcodebuild | xcpretty
 - xcodebuild -scheme Triassic-macOS -target Triassic-macOS -configuration release | xcpretty
+- xcodebuild test -scheme Triassic-macOS | xcpretty
+- pod lib lint
+# - swift test
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
