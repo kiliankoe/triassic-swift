@@ -145,6 +145,10 @@
 		39CC24891DEDAB340011CD05 /* TriassicError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24871DEDAB340011CD05 /* TriassicError.swift */; };
 		39CC248A1DEDAB340011CD05 /* TriassicError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24871DEDAB340011CD05 /* TriassicError.swift */; };
 		39CC248B1DEDAB340011CD05 /* TriassicError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24871DEDAB340011CD05 /* TriassicError.swift */; };
+		39CC248E1DEDB7B30011CD05 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC248D1DEDB7B30011CD05 /* String.swift */; };
+		39CC248F1DEDB7B30011CD05 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC248D1DEDB7B30011CD05 /* String.swift */; };
+		39CC24901DEDB7B30011CD05 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC248D1DEDB7B30011CD05 /* String.swift */; };
+		39CC24911DEDB7B30011CD05 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC248D1DEDB7B30011CD05 /* String.swift */; };
 		39CC24931DEDB8560011CD05 /* Triassic.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 39CC24921DEDB8560011CD05 /* Triassic.podspec */; };
 		39CC24941DEDB8560011CD05 /* Triassic.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 39CC24921DEDB8560011CD05 /* Triassic.podspec */; };
 		39CC24951DEDB8560011CD05 /* Triassic.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 39CC24921DEDB8560011CD05 /* Triassic.podspec */; };
@@ -279,6 +283,7 @@
 		39CC242E1DEC8D480011CD05 /* Triassic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Triassic.swift; path = Sources/Triassic.swift; sourceTree = "<group>"; };
 		39CC24811DECF8F40011CD05 /* GeoAreaTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GeoAreaTests.swift; path = Tests/TriassicTests/GeoAreaTests.swift; sourceTree = "<group>"; };
 		39CC24871DEDAB340011CD05 /* TriassicError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriassicError.swift; sourceTree = "<group>"; };
+		39CC248D1DEDB7B30011CD05 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		39CC24921DEDB8560011CD05 /* Triassic.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = Triassic.podspec; sourceTree = SOURCE_ROOT; };
 		39CC24971DEDB85E0011CD05 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
 		39CC24A11DEDB87D0011CD05 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
@@ -499,6 +504,7 @@
 			children = (
 				39029EEB1DEC8BC400508B68 /* XMLElement.swift */,
 				39CC24871DEDAB340011CD05 /* TriassicError.swift */,
+				39CC248C1DEDB7AC0011CD05 /* Extensions */,
 			);
 			name = Triassic;
 			path = Sources/Triassic;
@@ -534,6 +540,14 @@
 				391527A41DEC88710084BAEF /* AEXML.framework.dSYM */,
 			);
 			name = Symbols;
+			sourceTree = "<group>";
+		};
+		39CC248C1DEDB7AC0011CD05 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				39CC248D1DEDB7B30011CD05 /* String.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		52D6D9721BEFF229002C0205 = {
@@ -1002,6 +1016,7 @@
 				39029F4C1DEC8BC400508B68 /* Provider.swift in Sources */,
 				39029F081DEC8BC400508B68 /* SharingService.swift in Sources */,
 				39029F541DEC8BC400508B68 /* LocationInformationRequest.swift in Sources */,
+				39CC248E1DEDB7B30011CD05 /* String.swift in Sources */,
 				39029EF41DEC8BC400508B68 /* LineDirection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1050,6 +1065,7 @@
 				39029F4E1DEC8BC400508B68 /* Provider.swift in Sources */,
 				39029F0A1DEC8BC400508B68 /* SharingService.swift in Sources */,
 				39029F561DEC8BC400508B68 /* LocationInformationRequest.swift in Sources */,
+				39CC24901DEDB7B30011CD05 /* String.swift in Sources */,
 				39029EF61DEC8BC400508B68 /* LineDirection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1089,6 +1105,7 @@
 				39029F4F1DEC8BC400508B68 /* Provider.swift in Sources */,
 				39029F0B1DEC8BC400508B68 /* SharingService.swift in Sources */,
 				39029F571DEC8BC400508B68 /* LocationInformationRequest.swift in Sources */,
+				39CC24911DEDB7B30011CD05 /* String.swift in Sources */,
 				39029EF71DEC8BC400508B68 /* LineDirection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1128,6 +1145,7 @@
 				39029F4D1DEC8BC400508B68 /* Provider.swift in Sources */,
 				39029F091DEC8BC400508B68 /* SharingService.swift in Sources */,
 				39029F551DEC8BC400508B68 /* LocationInformationRequest.swift in Sources */,
+				39CC248F1DEDB7B30011CD05 /* String.swift in Sources */,
 				39029EF51DEC8BC400508B68 /* LineDirection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
