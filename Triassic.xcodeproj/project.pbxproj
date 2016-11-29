@@ -165,6 +165,9 @@
 		39CC24A81DEDB88A0011CD05 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24A61DEDB88A0011CD05 /* README.md */; };
 		39CC24A91DEDB88A0011CD05 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24A61DEDB88A0011CD05 /* README.md */; };
 		39CC24AA1DEDB88A0011CD05 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24A61DEDB88A0011CD05 /* README.md */; };
+		39CC24CC1DEDC9AE0011CD05 /* XSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24CB1DEDC9AE0011CD05 /* XSTests.swift */; };
+		39CC24CD1DEDC9AE0011CD05 /* XSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24CB1DEDC9AE0011CD05 /* XSTests.swift */; };
+		39CC24CE1DEDC9AE0011CD05 /* XSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24CB1DEDC9AE0011CD05 /* XSTests.swift */; };
 		52D6D9871BEFF229002C0205 /* Triassic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* Triassic.framework */; };
 		DD7502881C68FEDE006590AF /* Triassic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6DA0F1BF000BD002C0205 /* Triassic.framework */; };
 		DD7502921C690C7A006590AF /* Triassic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D9F01BEFFFBE002C0205 /* Triassic.framework */; };
@@ -288,6 +291,7 @@
 		39CC24971DEDB85E0011CD05 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
 		39CC24A11DEDB87D0011CD05 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
 		39CC24A61DEDB88A0011CD05 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		39CC24CB1DEDC9AE0011CD05 /* XSTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XSTests.swift; path = Tests/TriassicTests/XSTests.swift; sourceTree = "<group>"; };
 		52D6D97C1BEFF229002C0205 /* Triassic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Triassic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6D9861BEFF229002C0205 /* Triassic-iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Triassic-iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6D9E21BEFFF6E002C0205 /* Triassic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Triassic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -515,6 +519,7 @@
 			children = (
 				39029F651DEC8C0400508B68 /* TriassicTests.swift */,
 				39CC24811DECF8F40011CD05 /* GeoAreaTests.swift */,
+				39CC24CB1DEDC9AE0011CD05 /* XSTests.swift */,
 			);
 			name = Tests;
 			sourceTree = "<group>";
@@ -1026,6 +1031,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39CC24821DECF8F40011CD05 /* GeoAreaTests.swift in Sources */,
+				39CC24CC1DEDC9AE0011CD05 /* XSTests.swift in Sources */,
 				39029F661DEC8C0400508B68 /* TriassicTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1155,6 +1161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39CC24831DECF8F40011CD05 /* GeoAreaTests.swift in Sources */,
+				39CC24CD1DEDC9AE0011CD05 /* XSTests.swift in Sources */,
 				39029F671DEC8C0400508B68 /* TriassicTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1164,6 +1171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39CC24841DECF8F40011CD05 /* GeoAreaTests.swift in Sources */,
+				39CC24CE1DEDC9AE0011CD05 /* XSTests.swift in Sources */,
 				39029F681DEC8C0400508B68 /* TriassicTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

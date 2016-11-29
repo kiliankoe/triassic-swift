@@ -20,7 +20,9 @@ public enum XS {
         }
 
         public var description: String {
-            return value.condensedWhitespace
+            return value
+                .replacingOccurrences(of: "\t", with: "")
+                .condensedWhitespace
         }
     }
 
