@@ -37,7 +37,7 @@ class GeoAreaTests: XCTestCase {
 
 #if os(Linux)
     extension GeoAreaTests {
-        static var allTests : [(String, (GeoAreaTests) -> () throws -> Void)] {
+        static var allTests: [(String, (GeoAreaTests) -> () throws -> Void)] {
             return [
                 ("testInit", testInit),
             ]
