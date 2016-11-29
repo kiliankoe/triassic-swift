@@ -141,6 +141,10 @@
 		39CC24821DECF8F40011CD05 /* GeoAreaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24811DECF8F40011CD05 /* GeoAreaTests.swift */; };
 		39CC24831DECF8F40011CD05 /* GeoAreaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24811DECF8F40011CD05 /* GeoAreaTests.swift */; };
 		39CC24841DECF8F40011CD05 /* GeoAreaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24811DECF8F40011CD05 /* GeoAreaTests.swift */; };
+		39CC24881DEDAB340011CD05 /* TriassicError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24871DEDAB340011CD05 /* TriassicError.swift */; };
+		39CC24891DEDAB340011CD05 /* TriassicError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24871DEDAB340011CD05 /* TriassicError.swift */; };
+		39CC248A1DEDAB340011CD05 /* TriassicError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24871DEDAB340011CD05 /* TriassicError.swift */; };
+		39CC248B1DEDAB340011CD05 /* TriassicError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24871DEDAB340011CD05 /* TriassicError.swift */; };
 		52D6D9871BEFF229002C0205 /* Triassic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* Triassic.framework */; };
 		DD7502881C68FEDE006590AF /* Triassic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6DA0F1BF000BD002C0205 /* Triassic.framework */; };
 		DD7502921C690C7A006590AF /* Triassic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D9F01BEFFFBE002C0205 /* Triassic.framework */; };
@@ -258,6 +262,7 @@
 		391527A41DEC88710084BAEF /* AEXML.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = AEXML.framework.dSYM; path = Carthage/Build/tvOS/AEXML.framework.dSYM; sourceTree = "<group>"; };
 		39CC242E1DEC8D480011CD05 /* Triassic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Triassic.swift; path = Sources/Triassic.swift; sourceTree = "<group>"; };
 		39CC24811DECF8F40011CD05 /* GeoAreaTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GeoAreaTests.swift; path = Tests/TriassicTests/GeoAreaTests.swift; sourceTree = "<group>"; };
+		39CC24871DEDAB340011CD05 /* TriassicError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriassicError.swift; sourceTree = "<group>"; };
 		52D6D97C1BEFF229002C0205 /* Triassic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Triassic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6D9861BEFF229002C0205 /* Triassic-iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Triassic-iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6D9E21BEFFF6E002C0205 /* Triassic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Triassic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -473,6 +478,7 @@
 			isa = PBXGroup;
 			children = (
 				39029EEB1DEC8BC400508B68 /* XMLElement.swift */,
+				39CC24871DEDAB340011CD05 /* TriassicError.swift */,
 			);
 			name = Triassic;
 			path = Sources/Triassic;
@@ -952,6 +958,7 @@
 				39029F301DEC8BC400508B68 /* ModesSupport.swift in Sources */,
 				39029F3C1DEC8BC400508B68 /* InternationalText.swift in Sources */,
 				39029F401DEC8BC400508B68 /* Utility.swift in Sources */,
+				39CC24881DEDAB340011CD05 /* TriassicError.swift in Sources */,
 				39029F001DEC8BC400508B68 /* OperatorFilter.swift in Sources */,
 				39029F0C1DEC8BC400508B68 /* GeoArea.swift in Sources */,
 				39029F241DEC8BC400508B68 /* LocationUsage.swift in Sources */,
@@ -998,6 +1005,7 @@
 				39029F321DEC8BC400508B68 /* ModesSupport.swift in Sources */,
 				39029F3E1DEC8BC400508B68 /* InternationalText.swift in Sources */,
 				39029F421DEC8BC400508B68 /* Utility.swift in Sources */,
+				39CC248A1DEDAB340011CD05 /* TriassicError.swift in Sources */,
 				39029F021DEC8BC400508B68 /* OperatorFilter.swift in Sources */,
 				39029F0E1DEC8BC400508B68 /* GeoArea.swift in Sources */,
 				39029F261DEC8BC400508B68 /* LocationUsage.swift in Sources */,
@@ -1035,6 +1043,7 @@
 				39029F331DEC8BC400508B68 /* ModesSupport.swift in Sources */,
 				39029F3F1DEC8BC400508B68 /* InternationalText.swift in Sources */,
 				39029F431DEC8BC400508B68 /* Utility.swift in Sources */,
+				39CC248B1DEDAB340011CD05 /* TriassicError.swift in Sources */,
 				39029F031DEC8BC400508B68 /* OperatorFilter.swift in Sources */,
 				39029F0F1DEC8BC400508B68 /* GeoArea.swift in Sources */,
 				39029F271DEC8BC400508B68 /* LocationUsage.swift in Sources */,
@@ -1072,6 +1081,7 @@
 				39029F311DEC8BC400508B68 /* ModesSupport.swift in Sources */,
 				39029F3D1DEC8BC400508B68 /* InternationalText.swift in Sources */,
 				39029F411DEC8BC400508B68 /* Utility.swift in Sources */,
+				39CC24891DEDAB340011CD05 /* TriassicError.swift in Sources */,
 				39029F011DEC8BC400508B68 /* OperatorFilter.swift in Sources */,
 				39029F0D1DEC8BC400508B68 /* GeoArea.swift in Sources */,
 				39029F251DEC8BC400508B68 /* LocationUsage.swift in Sources */,
