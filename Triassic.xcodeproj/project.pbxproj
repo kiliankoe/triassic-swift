@@ -145,6 +145,22 @@
 		39CC24891DEDAB340011CD05 /* TriassicError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24871DEDAB340011CD05 /* TriassicError.swift */; };
 		39CC248A1DEDAB340011CD05 /* TriassicError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24871DEDAB340011CD05 /* TriassicError.swift */; };
 		39CC248B1DEDAB340011CD05 /* TriassicError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24871DEDAB340011CD05 /* TriassicError.swift */; };
+		39CC24931DEDB8560011CD05 /* Triassic.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 39CC24921DEDB8560011CD05 /* Triassic.podspec */; };
+		39CC24941DEDB8560011CD05 /* Triassic.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 39CC24921DEDB8560011CD05 /* Triassic.podspec */; };
+		39CC24951DEDB8560011CD05 /* Triassic.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 39CC24921DEDB8560011CD05 /* Triassic.podspec */; };
+		39CC24961DEDB8560011CD05 /* Triassic.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 39CC24921DEDB8560011CD05 /* Triassic.podspec */; };
+		39CC24981DEDB85E0011CD05 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 39CC24971DEDB85E0011CD05 /* Cartfile */; };
+		39CC24991DEDB85E0011CD05 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 39CC24971DEDB85E0011CD05 /* Cartfile */; };
+		39CC249A1DEDB85E0011CD05 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 39CC24971DEDB85E0011CD05 /* Cartfile */; };
+		39CC249B1DEDB85E0011CD05 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 39CC24971DEDB85E0011CD05 /* Cartfile */; };
+		39CC24A21DEDB87D0011CD05 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 39CC24A11DEDB87D0011CD05 /* .swiftlint.yml */; };
+		39CC24A31DEDB87D0011CD05 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 39CC24A11DEDB87D0011CD05 /* .swiftlint.yml */; };
+		39CC24A41DEDB87D0011CD05 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 39CC24A11DEDB87D0011CD05 /* .swiftlint.yml */; };
+		39CC24A51DEDB87D0011CD05 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 39CC24A11DEDB87D0011CD05 /* .swiftlint.yml */; };
+		39CC24A71DEDB88A0011CD05 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24A61DEDB88A0011CD05 /* README.md */; };
+		39CC24A81DEDB88A0011CD05 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24A61DEDB88A0011CD05 /* README.md */; };
+		39CC24A91DEDB88A0011CD05 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24A61DEDB88A0011CD05 /* README.md */; };
+		39CC24AA1DEDB88A0011CD05 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24A61DEDB88A0011CD05 /* README.md */; };
 		52D6D9871BEFF229002C0205 /* Triassic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* Triassic.framework */; };
 		DD7502881C68FEDE006590AF /* Triassic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6DA0F1BF000BD002C0205 /* Triassic.framework */; };
 		DD7502921C690C7A006590AF /* Triassic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D9F01BEFFFBE002C0205 /* Triassic.framework */; };
@@ -263,6 +279,10 @@
 		39CC242E1DEC8D480011CD05 /* Triassic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Triassic.swift; path = Sources/Triassic.swift; sourceTree = "<group>"; };
 		39CC24811DECF8F40011CD05 /* GeoAreaTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GeoAreaTests.swift; path = Tests/TriassicTests/GeoAreaTests.swift; sourceTree = "<group>"; };
 		39CC24871DEDAB340011CD05 /* TriassicError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriassicError.swift; sourceTree = "<group>"; };
+		39CC24921DEDB8560011CD05 /* Triassic.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = Triassic.podspec; sourceTree = SOURCE_ROOT; };
+		39CC24971DEDB85E0011CD05 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
+		39CC24A11DEDB87D0011CD05 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
+		39CC24A61DEDB88A0011CD05 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		52D6D97C1BEFF229002C0205 /* Triassic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Triassic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6D9861BEFF229002C0205 /* Triassic-iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Triassic-iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6D9E21BEFFF6E002C0205 /* Triassic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Triassic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -548,6 +568,10 @@
 		52D6D99C1BEFF38C002C0205 /* Configs */ = {
 			isa = PBXGroup;
 			children = (
+				39CC24971DEDB85E0011CD05 /* Cartfile */,
+				39CC24921DEDB8560011CD05 /* Triassic.podspec */,
+				39CC24A11DEDB87D0011CD05 /* .swiftlint.yml */,
+				39CC24A61DEDB88A0011CD05 /* README.md */,
 				DD7502721C68FC1B006590AF /* Frameworks */,
 				DD7502731C68FC20006590AF /* Tests */,
 			);
@@ -807,6 +831,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39CC24A21DEDB87D0011CD05 /* .swiftlint.yml in Resources */,
+				39CC24981DEDB85E0011CD05 /* Cartfile in Resources */,
+				39CC24931DEDB8560011CD05 /* Triassic.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -821,6 +848,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39CC24A41DEDB87D0011CD05 /* .swiftlint.yml in Resources */,
+				39CC249A1DEDB85E0011CD05 /* Cartfile in Resources */,
+				39CC24951DEDB8560011CD05 /* Triassic.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -828,6 +858,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39CC24A51DEDB87D0011CD05 /* .swiftlint.yml in Resources */,
+				39CC249B1DEDB85E0011CD05 /* Cartfile in Resources */,
+				39CC24961DEDB8560011CD05 /* Triassic.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -835,6 +868,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39CC24A31DEDB87D0011CD05 /* .swiftlint.yml in Resources */,
+				39CC24991DEDB85E0011CD05 /* Cartfile in Resources */,
+				39CC24941DEDB8560011CD05 /* Triassic.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -944,6 +980,7 @@
 				39029F601DEC8BC400508B68 /* XMLElement.swift in Sources */,
 				39029F581DEC8BC400508B68 /* Request.swift in Sources */,
 				39029F381DEC8BC400508B68 /* GeoPosition.swift in Sources */,
+				39CC24A71DEDB88A0011CD05 /* README.md in Sources */,
 				39029F101DEC8BC400508B68 /* GeoCircle.swift in Sources */,
 				39029F481DEC8BC400508B68 /* XS.swift in Sources */,
 				39029F281DEC8BC400508B68 /* IndividualTransportOptions.swift in Sources */,
@@ -991,6 +1028,7 @@
 				39029F621DEC8BC400508B68 /* XMLElement.swift in Sources */,
 				39029F5A1DEC8BC400508B68 /* Request.swift in Sources */,
 				39029F3A1DEC8BC400508B68 /* GeoPosition.swift in Sources */,
+				39CC24A91DEDB88A0011CD05 /* README.md in Sources */,
 				39029F121DEC8BC400508B68 /* GeoCircle.swift in Sources */,
 				39029F4A1DEC8BC400508B68 /* XS.swift in Sources */,
 				39029F2A1DEC8BC400508B68 /* IndividualTransportOptions.swift in Sources */,
@@ -1029,6 +1067,7 @@
 				39029F631DEC8BC400508B68 /* XMLElement.swift in Sources */,
 				39029F5B1DEC8BC400508B68 /* Request.swift in Sources */,
 				39029F3B1DEC8BC400508B68 /* GeoPosition.swift in Sources */,
+				39CC24AA1DEDB88A0011CD05 /* README.md in Sources */,
 				39029F131DEC8BC400508B68 /* GeoCircle.swift in Sources */,
 				39029F4B1DEC8BC400508B68 /* XS.swift in Sources */,
 				39029F2B1DEC8BC400508B68 /* IndividualTransportOptions.swift in Sources */,
@@ -1067,6 +1106,7 @@
 				39029F611DEC8BC400508B68 /* XMLElement.swift in Sources */,
 				39029F591DEC8BC400508B68 /* Request.swift in Sources */,
 				39029F391DEC8BC400508B68 /* GeoPosition.swift in Sources */,
+				39CC24A81DEDB88A0011CD05 /* README.md in Sources */,
 				39029F111DEC8BC400508B68 /* GeoCircle.swift in Sources */,
 				39029F491DEC8BC400508B68 /* XS.swift in Sources */,
 				39029F291DEC8BC400508B68 /* IndividualTransportOptions.swift in Sources */,
