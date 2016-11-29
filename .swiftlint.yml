@@ -10,3 +10,7 @@ variable_name:
   excluded:
     - id
     - to
+
+type_name:
+  excluded:
+    - XS
