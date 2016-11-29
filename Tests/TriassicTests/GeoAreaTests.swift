@@ -17,20 +17,12 @@ class GeoAreaTests: XCTestCase {
         let pos3 = Utility.GeoPosition(longitude: 3.0, latitude: 3.0, altitude: 0.0)
 
         guard let _ = GeoArea(polylinePoints: [pos1, pos2, pos3]) else {
-            XCTFail("GeoArea with 3 points should not be nil")
+            XCTFail("GeoArea with 3 or more points should not be nil.")
             return
         }
 
         if let _ = GeoArea(polylinePoints: [pos1, pos2]) {
-            XCTFail("GeoArea with 2 points should be nil")
-        }
-
-        if let _ = GeoArea(polylinePoints: [pos1]) {
-            XCTFail("GeoArea with 1 point should be nil")
-        }
-
-        if let _ = GeoArea(polylinePoints: []) {
-            XCTFail("GeoArea with 0 points should be nil")
+            XCTFail("GeoArea with less than 3 points should be nil.")
         }
     }
 }
