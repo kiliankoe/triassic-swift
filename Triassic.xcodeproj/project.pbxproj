@@ -134,6 +134,10 @@
 		3915279E1DEC88500084BAEF /* AEXML.framework.dSYM in Copy Carthage Symbols */ = {isa = PBXBuildFile; fileRef = 3915279D1DEC88500084BAEF /* AEXML.framework.dSYM */; };
 		391527A21DEC88640084BAEF /* AEXML.framework.dSYM in Copy Carthage Symbols */ = {isa = PBXBuildFile; fileRef = 391527A11DEC88640084BAEF /* AEXML.framework.dSYM */; };
 		391527A51DEC88710084BAEF /* AEXML.framework.dSYM in Copy Carthage Symbols */ = {isa = PBXBuildFile; fileRef = 391527A41DEC88710084BAEF /* AEXML.framework.dSYM */; };
+		39371A671DEEFF600038E794 /* LocationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39371A661DEEFF600038E794 /* LocationResult.swift */; };
+		39371A681DEEFF670038E794 /* LocationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39371A661DEEFF600038E794 /* LocationResult.swift */; };
+		39371A691DEEFF670038E794 /* LocationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39371A661DEEFF600038E794 /* LocationResult.swift */; };
+		39371A6A1DEEFF680038E794 /* LocationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39371A661DEEFF600038E794 /* LocationResult.swift */; };
 		39CC242F1DEC8D480011CD05 /* Triassic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC242E1DEC8D480011CD05 /* Triassic.swift */; };
 		39CC24301DEC8D480011CD05 /* Triassic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC242E1DEC8D480011CD05 /* Triassic.swift */; };
 		39CC24311DEC8D480011CD05 /* Triassic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC242E1DEC8D480011CD05 /* Triassic.swift */; };
@@ -184,6 +188,14 @@
 		39CC24E01DEECED30011CD05 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24DE1DEECED30011CD05 /* Duration.swift */; };
 		39CC24E11DEECED30011CD05 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24DE1DEECED30011CD05 /* Duration.swift */; };
 		39CC24E21DEECED30011CD05 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24DE1DEECED30011CD05 /* Duration.swift */; };
+		39CC24E41DEEFD540011CD05 /* LocationInformationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24E31DEEFD540011CD05 /* LocationInformationResponse.swift */; };
+		39CC24E51DEEFD540011CD05 /* LocationInformationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24E31DEEFD540011CD05 /* LocationInformationResponse.swift */; };
+		39CC24E61DEEFD540011CD05 /* LocationInformationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24E31DEEFD540011CD05 /* LocationInformationResponse.swift */; };
+		39CC24E71DEEFD540011CD05 /* LocationInformationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24E31DEEFD540011CD05 /* LocationInformationResponse.swift */; };
+		39CC24E91DEEFE360011CD05 /* LocationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24E81DEEFE360011CD05 /* LocationError.swift */; };
+		39CC24EA1DEEFE360011CD05 /* LocationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24E81DEEFE360011CD05 /* LocationError.swift */; };
+		39CC24EB1DEEFE360011CD05 /* LocationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24E81DEEFE360011CD05 /* LocationError.swift */; };
+		39CC24EC1DEEFE360011CD05 /* LocationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24E81DEEFE360011CD05 /* LocationError.swift */; };
 		52D6D9871BEFF229002C0205 /* Triassic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* Triassic.framework */; };
 		DD7502881C68FEDE006590AF /* Triassic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6DA0F1BF000BD002C0205 /* Triassic.framework */; };
 		DD7502921C690C7A006590AF /* Triassic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D9F01BEFFFBE002C0205 /* Triassic.framework */; };
@@ -299,6 +311,7 @@
 		3915279D1DEC88500084BAEF /* AEXML.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = AEXML.framework.dSYM; path = Carthage/Build/Mac/AEXML.framework.dSYM; sourceTree = "<group>"; };
 		391527A11DEC88640084BAEF /* AEXML.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = AEXML.framework.dSYM; path = Carthage/Build/watchOS/AEXML.framework.dSYM; sourceTree = "<group>"; };
 		391527A41DEC88710084BAEF /* AEXML.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = AEXML.framework.dSYM; path = Carthage/Build/tvOS/AEXML.framework.dSYM; sourceTree = "<group>"; };
+		39371A661DEEFF600038E794 /* LocationResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationResult.swift; path = Sources/LocationInformation/LocationResult.swift; sourceTree = SOURCE_ROOT; };
 		39CC242E1DEC8D480011CD05 /* Triassic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Triassic.swift; path = Sources/Triassic.swift; sourceTree = "<group>"; };
 		39CC24811DECF8F40011CD05 /* GeoAreaTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GeoAreaTests.swift; path = Tests/TriassicTests/GeoAreaTests.swift; sourceTree = "<group>"; };
 		39CC24871DEDAB340011CD05 /* TriassicError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriassicError.swift; sourceTree = "<group>"; };
@@ -312,6 +325,8 @@
 		39CC24D41DEECEA30011CD05 /* NormalizedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalizedString.swift; sourceTree = "<group>"; };
 		39CC24D91DEECEBE0011CD05 /* DateTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTime.swift; sourceTree = "<group>"; };
 		39CC24DE1DEECED30011CD05 /* Duration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Duration.swift; sourceTree = "<group>"; };
+		39CC24E31DEEFD540011CD05 /* LocationInformationResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationInformationResponse.swift; path = Sources/LocationInformation/LocationInformationResponse.swift; sourceTree = SOURCE_ROOT; };
+		39CC24E81DEEFE360011CD05 /* LocationError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationError.swift; path = Sources/LocationInformation/LocationError.swift; sourceTree = SOURCE_ROOT; };
 		52D6D97C1BEFF229002C0205 /* Triassic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Triassic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6D9861BEFF229002C0205 /* Triassic-iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Triassic-iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6D9E21BEFFF6E002C0205 /* Triassic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Triassic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -448,6 +463,9 @@
 				39029ED11DEC8BC400508B68 /* InitialLocationInput.swift */,
 				39029ED21DEC8BC400508B68 /* LocationType.swift */,
 				39029ED31DEC8BC400508B68 /* LocationUsage.swift */,
+				39CC24E31DEEFD540011CD05 /* LocationInformationResponse.swift */,
+				39CC24E81DEEFE360011CD05 /* LocationError.swift */,
+				39371A661DEEFF600038E794 /* LocationResult.swift */,
 			);
 			name = LocationInformation;
 			path = Sources/DataTypes/LocationInformation;
@@ -1030,11 +1048,14 @@
 				39029F281DEC8BC400508B68 /* IndividualTransportOptions.swift in Sources */,
 				39029F2C1DEC8BC400508B68 /* Mode.swift in Sources */,
 				39029F501DEC8BC400508B68 /* VVOProvider.swift in Sources */,
+				39371A671DEEFF600038E794 /* LocationResult.swift in Sources */,
 				39CC24DF1DEECED30011CD05 /* Duration.swift in Sources */,
+				39CC24E41DEEFD540011CD05 /* LocationInformationResponse.swift in Sources */,
 				39029F041DEC8BC400508B68 /* PrivateCode.swift in Sources */,
 				39029EEC1DEC8BC400508B68 /* Common.swift in Sources */,
 				39029F441DEC8BC400508B68 /* WebLink.swift in Sources */,
 				39CC242F1DEC8D480011CD05 /* Triassic.swift in Sources */,
+				39CC24E91DEEFE360011CD05 /* LocationError.swift in Sources */,
 				39029EF01DEC8BC400508B68 /* ErrorMessage.swift in Sources */,
 				39029F341DEC8BC400508B68 /* PtModeFilter.swift in Sources */,
 				39029F301DEC8BC400508B68 /* ModesSupport.swift in Sources */,
@@ -1084,11 +1105,14 @@
 				39029F2A1DEC8BC400508B68 /* IndividualTransportOptions.swift in Sources */,
 				39029F2E1DEC8BC400508B68 /* Mode.swift in Sources */,
 				39029F521DEC8BC400508B68 /* VVOProvider.swift in Sources */,
+				39371A691DEEFF670038E794 /* LocationResult.swift in Sources */,
 				39CC24E11DEECED30011CD05 /* Duration.swift in Sources */,
+				39CC24E61DEEFD540011CD05 /* LocationInformationResponse.swift in Sources */,
 				39029F061DEC8BC400508B68 /* PrivateCode.swift in Sources */,
 				39029EEE1DEC8BC400508B68 /* Common.swift in Sources */,
 				39029F461DEC8BC400508B68 /* WebLink.swift in Sources */,
 				39CC24311DEC8D480011CD05 /* Triassic.swift in Sources */,
+				39CC24EB1DEEFE360011CD05 /* LocationError.swift in Sources */,
 				39029EF21DEC8BC400508B68 /* ErrorMessage.swift in Sources */,
 				39029F361DEC8BC400508B68 /* PtModeFilter.swift in Sources */,
 				39029F321DEC8BC400508B68 /* ModesSupport.swift in Sources */,
@@ -1128,11 +1152,14 @@
 				39029F2B1DEC8BC400508B68 /* IndividualTransportOptions.swift in Sources */,
 				39029F2F1DEC8BC400508B68 /* Mode.swift in Sources */,
 				39029F531DEC8BC400508B68 /* VVOProvider.swift in Sources */,
+				39371A6A1DEEFF680038E794 /* LocationResult.swift in Sources */,
 				39CC24E21DEECED30011CD05 /* Duration.swift in Sources */,
+				39CC24E71DEEFD540011CD05 /* LocationInformationResponse.swift in Sources */,
 				39029F071DEC8BC400508B68 /* PrivateCode.swift in Sources */,
 				39029EEF1DEC8BC400508B68 /* Common.swift in Sources */,
 				39029F471DEC8BC400508B68 /* WebLink.swift in Sources */,
 				39CC24321DEC8D480011CD05 /* Triassic.swift in Sources */,
+				39CC24EC1DEEFE360011CD05 /* LocationError.swift in Sources */,
 				39029EF31DEC8BC400508B68 /* ErrorMessage.swift in Sources */,
 				39029F371DEC8BC400508B68 /* PtModeFilter.swift in Sources */,
 				39029F331DEC8BC400508B68 /* ModesSupport.swift in Sources */,
@@ -1172,11 +1199,14 @@
 				39029F291DEC8BC400508B68 /* IndividualTransportOptions.swift in Sources */,
 				39029F2D1DEC8BC400508B68 /* Mode.swift in Sources */,
 				39029F511DEC8BC400508B68 /* VVOProvider.swift in Sources */,
+				39371A681DEEFF670038E794 /* LocationResult.swift in Sources */,
 				39CC24E01DEECED30011CD05 /* Duration.swift in Sources */,
+				39CC24E51DEEFD540011CD05 /* LocationInformationResponse.swift in Sources */,
 				39029F051DEC8BC400508B68 /* PrivateCode.swift in Sources */,
 				39029EED1DEC8BC400508B68 /* Common.swift in Sources */,
 				39029F451DEC8BC400508B68 /* WebLink.swift in Sources */,
 				39CC24301DEC8D480011CD05 /* Triassic.swift in Sources */,
+				39CC24EA1DEEFE360011CD05 /* LocationError.swift in Sources */,
 				39029EF11DEC8BC400508B68 /* ErrorMessage.swift in Sources */,
 				39029F351DEC8BC400508B68 /* PtModeFilter.swift in Sources */,
 				39029F311DEC8BC400508B68 /* ModesSupport.swift in Sources */,
