@@ -9,7 +9,10 @@
 import Foundation
 
 public enum TriassicError: Error {
+    case request(Error?)
     case server
-    case request
+    case notFound
+    case malformedData
+
     case unknown
 }
