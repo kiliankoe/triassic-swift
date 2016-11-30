@@ -13,8 +13,6 @@ public protocol Provider {
     static var id: Common.OperatorCode { get }
     static var baseURL: URL { get }
     static var center: CLLocationCoordinate2D { get }
-
-    static func send(request: Request, completion: @escaping (TriassicError?) -> Void)
 }
 
 public extension Provider {
