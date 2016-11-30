@@ -16,7 +16,7 @@ class TriassicTests: XCTestCase {
 
         let e = expectation(description: "Send a LocationInformationRequest")
 
-        Triassic.locationInformation(query: "Helmhol") {
+        Triassic.locationInformation(query: "Helmhol") { error, response in
             e.fulfill()
         }
 
