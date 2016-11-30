@@ -13,7 +13,7 @@ public extension XS {
     public struct NameToken: CustomStringConvertible {
         internal let value: String
 
-        init(_ value: String) {
+        public init(_ value: String) {
             self.value = value
         }
 

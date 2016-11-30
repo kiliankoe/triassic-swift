@@ -19,7 +19,7 @@ public extension XS {
             return df
         }()
 
-        init(_ value: Date) {
+        public init(_ value: Date) {
             self.value = value
         }
 

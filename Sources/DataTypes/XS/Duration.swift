@@ -20,7 +20,7 @@ public extension XS {
 
         internal let isNegative: Bool
 
-        init(years: UInt? = nil, months: UInt? = nil, days: UInt? = nil, hours: UInt? = nil, minutes: UInt? = nil, seconds: UInt? = nil, isNegative: Bool = false) {
+        public init(years: UInt? = nil, months: UInt? = nil, days: UInt? = nil, hours: UInt? = nil, minutes: UInt? = nil, seconds: UInt? = nil, isNegative: Bool = false) {
             self.years = years
             self.months = months
             self.days = days
