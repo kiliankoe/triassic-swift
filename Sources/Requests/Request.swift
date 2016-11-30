@@ -10,6 +10,7 @@ import Foundation
 
 public struct ServiceRequest {
     public let payload: RequestPayload
+    public let requestorRef: String
 }
 
 public struct RequestPayload {
