@@ -168,6 +168,22 @@
 		39CC24CC1DEDC9AE0011CD05 /* XSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24CB1DEDC9AE0011CD05 /* XSTests.swift */; };
 		39CC24CD1DEDC9AE0011CD05 /* XSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24CB1DEDC9AE0011CD05 /* XSTests.swift */; };
 		39CC24CE1DEDC9AE0011CD05 /* XSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24CB1DEDC9AE0011CD05 /* XSTests.swift */; };
+		39CC24D01DEECE870011CD05 /* NameToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24CF1DEECE870011CD05 /* NameToken.swift */; };
+		39CC24D11DEECE870011CD05 /* NameToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24CF1DEECE870011CD05 /* NameToken.swift */; };
+		39CC24D21DEECE870011CD05 /* NameToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24CF1DEECE870011CD05 /* NameToken.swift */; };
+		39CC24D31DEECE870011CD05 /* NameToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24CF1DEECE870011CD05 /* NameToken.swift */; };
+		39CC24D51DEECEA30011CD05 /* NormalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24D41DEECEA30011CD05 /* NormalizedString.swift */; };
+		39CC24D61DEECEA30011CD05 /* NormalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24D41DEECEA30011CD05 /* NormalizedString.swift */; };
+		39CC24D71DEECEA30011CD05 /* NormalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24D41DEECEA30011CD05 /* NormalizedString.swift */; };
+		39CC24D81DEECEA30011CD05 /* NormalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24D41DEECEA30011CD05 /* NormalizedString.swift */; };
+		39CC24DA1DEECEBE0011CD05 /* DateTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24D91DEECEBE0011CD05 /* DateTime.swift */; };
+		39CC24DB1DEECEBE0011CD05 /* DateTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24D91DEECEBE0011CD05 /* DateTime.swift */; };
+		39CC24DC1DEECEBE0011CD05 /* DateTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24D91DEECEBE0011CD05 /* DateTime.swift */; };
+		39CC24DD1DEECEBE0011CD05 /* DateTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24D91DEECEBE0011CD05 /* DateTime.swift */; };
+		39CC24DF1DEECED30011CD05 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24DE1DEECED30011CD05 /* Duration.swift */; };
+		39CC24E01DEECED30011CD05 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24DE1DEECED30011CD05 /* Duration.swift */; };
+		39CC24E11DEECED30011CD05 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24DE1DEECED30011CD05 /* Duration.swift */; };
+		39CC24E21DEECED30011CD05 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC24DE1DEECED30011CD05 /* Duration.swift */; };
 		52D6D9871BEFF229002C0205 /* Triassic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* Triassic.framework */; };
 		DD7502881C68FEDE006590AF /* Triassic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6DA0F1BF000BD002C0205 /* Triassic.framework */; };
 		DD7502921C690C7A006590AF /* Triassic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D9F01BEFFFBE002C0205 /* Triassic.framework */; };
@@ -292,6 +308,10 @@
 		39CC24A11DEDB87D0011CD05 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
 		39CC24A61DEDB88A0011CD05 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		39CC24CB1DEDC9AE0011CD05 /* XSTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XSTests.swift; path = Tests/TriassicTests/XSTests.swift; sourceTree = "<group>"; };
+		39CC24CF1DEECE870011CD05 /* NameToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameToken.swift; sourceTree = "<group>"; };
+		39CC24D41DEECEA30011CD05 /* NormalizedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalizedString.swift; sourceTree = "<group>"; };
+		39CC24D91DEECEBE0011CD05 /* DateTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTime.swift; sourceTree = "<group>"; };
+		39CC24DE1DEECED30011CD05 /* Duration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Duration.swift; sourceTree = "<group>"; };
 		52D6D97C1BEFF229002C0205 /* Triassic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Triassic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6D9861BEFF229002C0205 /* Triassic-iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Triassic-iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6D9E21BEFFF6E002C0205 /* Triassic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Triassic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -479,6 +499,10 @@
 			isa = PBXGroup;
 			children = (
 				39029EE21DEC8BC400508B68 /* XS.swift */,
+				39CC24DE1DEECED30011CD05 /* Duration.swift */,
+				39CC24D91DEECEBE0011CD05 /* DateTime.swift */,
+				39CC24D41DEECEA30011CD05 /* NormalizedString.swift */,
+				39CC24CF1DEECE870011CD05 /* NameToken.swift */,
 			);
 			path = XS;
 			sourceTree = "<group>";
@@ -1005,6 +1029,7 @@
 				39029F281DEC8BC400508B68 /* IndividualTransportOptions.swift in Sources */,
 				39029F2C1DEC8BC400508B68 /* Mode.swift in Sources */,
 				39029F501DEC8BC400508B68 /* VVOProvider.swift in Sources */,
+				39CC24DF1DEECED30011CD05 /* Duration.swift in Sources */,
 				39029F041DEC8BC400508B68 /* PrivateCode.swift in Sources */,
 				39029EEC1DEC8BC400508B68 /* Common.swift in Sources */,
 				39029F441DEC8BC400508B68 /* WebLink.swift in Sources */,
@@ -1014,14 +1039,17 @@
 				39029F301DEC8BC400508B68 /* ModesSupport.swift in Sources */,
 				39029F3C1DEC8BC400508B68 /* InternationalText.swift in Sources */,
 				39029F401DEC8BC400508B68 /* Utility.swift in Sources */,
+				39CC24D01DEECE870011CD05 /* NameToken.swift in Sources */,
 				39CC24881DEDAB340011CD05 /* TriassicError.swift in Sources */,
 				39029F001DEC8BC400508B68 /* OperatorFilter.swift in Sources */,
 				39029F0C1DEC8BC400508B68 /* GeoArea.swift in Sources */,
 				39029F241DEC8BC400508B68 /* LocationUsage.swift in Sources */,
 				39029F4C1DEC8BC400508B68 /* Provider.swift in Sources */,
+				39CC24D51DEECEA30011CD05 /* NormalizedString.swift in Sources */,
 				39029F081DEC8BC400508B68 /* SharingService.swift in Sources */,
 				39029F541DEC8BC400508B68 /* LocationInformationRequest.swift in Sources */,
 				39CC248E1DEDB7B30011CD05 /* String.swift in Sources */,
+				39CC24DA1DEECEBE0011CD05 /* DateTime.swift in Sources */,
 				39029EF41DEC8BC400508B68 /* LineDirection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1055,6 +1083,7 @@
 				39029F2A1DEC8BC400508B68 /* IndividualTransportOptions.swift in Sources */,
 				39029F2E1DEC8BC400508B68 /* Mode.swift in Sources */,
 				39029F521DEC8BC400508B68 /* VVOProvider.swift in Sources */,
+				39CC24E11DEECED30011CD05 /* Duration.swift in Sources */,
 				39029F061DEC8BC400508B68 /* PrivateCode.swift in Sources */,
 				39029EEE1DEC8BC400508B68 /* Common.swift in Sources */,
 				39029F461DEC8BC400508B68 /* WebLink.swift in Sources */,
@@ -1064,14 +1093,17 @@
 				39029F321DEC8BC400508B68 /* ModesSupport.swift in Sources */,
 				39029F3E1DEC8BC400508B68 /* InternationalText.swift in Sources */,
 				39029F421DEC8BC400508B68 /* Utility.swift in Sources */,
+				39CC24D21DEECE870011CD05 /* NameToken.swift in Sources */,
 				39CC248A1DEDAB340011CD05 /* TriassicError.swift in Sources */,
 				39029F021DEC8BC400508B68 /* OperatorFilter.swift in Sources */,
 				39029F0E1DEC8BC400508B68 /* GeoArea.swift in Sources */,
 				39029F261DEC8BC400508B68 /* LocationUsage.swift in Sources */,
 				39029F4E1DEC8BC400508B68 /* Provider.swift in Sources */,
+				39CC24D71DEECEA30011CD05 /* NormalizedString.swift in Sources */,
 				39029F0A1DEC8BC400508B68 /* SharingService.swift in Sources */,
 				39029F561DEC8BC400508B68 /* LocationInformationRequest.swift in Sources */,
 				39CC24901DEDB7B30011CD05 /* String.swift in Sources */,
+				39CC24DC1DEECEBE0011CD05 /* DateTime.swift in Sources */,
 				39029EF61DEC8BC400508B68 /* LineDirection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1095,6 +1127,7 @@
 				39029F2B1DEC8BC400508B68 /* IndividualTransportOptions.swift in Sources */,
 				39029F2F1DEC8BC400508B68 /* Mode.swift in Sources */,
 				39029F531DEC8BC400508B68 /* VVOProvider.swift in Sources */,
+				39CC24E21DEECED30011CD05 /* Duration.swift in Sources */,
 				39029F071DEC8BC400508B68 /* PrivateCode.swift in Sources */,
 				39029EEF1DEC8BC400508B68 /* Common.swift in Sources */,
 				39029F471DEC8BC400508B68 /* WebLink.swift in Sources */,
@@ -1104,14 +1137,17 @@
 				39029F331DEC8BC400508B68 /* ModesSupport.swift in Sources */,
 				39029F3F1DEC8BC400508B68 /* InternationalText.swift in Sources */,
 				39029F431DEC8BC400508B68 /* Utility.swift in Sources */,
+				39CC24D31DEECE870011CD05 /* NameToken.swift in Sources */,
 				39CC248B1DEDAB340011CD05 /* TriassicError.swift in Sources */,
 				39029F031DEC8BC400508B68 /* OperatorFilter.swift in Sources */,
 				39029F0F1DEC8BC400508B68 /* GeoArea.swift in Sources */,
 				39029F271DEC8BC400508B68 /* LocationUsage.swift in Sources */,
 				39029F4F1DEC8BC400508B68 /* Provider.swift in Sources */,
+				39CC24D81DEECEA30011CD05 /* NormalizedString.swift in Sources */,
 				39029F0B1DEC8BC400508B68 /* SharingService.swift in Sources */,
 				39029F571DEC8BC400508B68 /* LocationInformationRequest.swift in Sources */,
 				39CC24911DEDB7B30011CD05 /* String.swift in Sources */,
+				39CC24DD1DEECEBE0011CD05 /* DateTime.swift in Sources */,
 				39029EF71DEC8BC400508B68 /* LineDirection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1135,6 +1171,7 @@
 				39029F291DEC8BC400508B68 /* IndividualTransportOptions.swift in Sources */,
 				39029F2D1DEC8BC400508B68 /* Mode.swift in Sources */,
 				39029F511DEC8BC400508B68 /* VVOProvider.swift in Sources */,
+				39CC24E01DEECED30011CD05 /* Duration.swift in Sources */,
 				39029F051DEC8BC400508B68 /* PrivateCode.swift in Sources */,
 				39029EED1DEC8BC400508B68 /* Common.swift in Sources */,
 				39029F451DEC8BC400508B68 /* WebLink.swift in Sources */,
@@ -1144,14 +1181,17 @@
 				39029F311DEC8BC400508B68 /* ModesSupport.swift in Sources */,
 				39029F3D1DEC8BC400508B68 /* InternationalText.swift in Sources */,
 				39029F411DEC8BC400508B68 /* Utility.swift in Sources */,
+				39CC24D11DEECE870011CD05 /* NameToken.swift in Sources */,
 				39CC24891DEDAB340011CD05 /* TriassicError.swift in Sources */,
 				39029F011DEC8BC400508B68 /* OperatorFilter.swift in Sources */,
 				39029F0D1DEC8BC400508B68 /* GeoArea.swift in Sources */,
 				39029F251DEC8BC400508B68 /* LocationUsage.swift in Sources */,
 				39029F4D1DEC8BC400508B68 /* Provider.swift in Sources */,
+				39CC24D61DEECEA30011CD05 /* NormalizedString.swift in Sources */,
 				39029F091DEC8BC400508B68 /* SharingService.swift in Sources */,
 				39029F551DEC8BC400508B68 /* LocationInformationRequest.swift in Sources */,
 				39CC248F1DEDB7B30011CD05 /* String.swift in Sources */,
+				39CC24DB1DEECEBE0011CD05 /* DateTime.swift in Sources */,
 				39029EF51DEC8BC400508B68 /* LineDirection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
