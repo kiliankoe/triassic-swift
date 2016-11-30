@@ -83,10 +83,6 @@
 		39029F511DEC8BC400508B68 /* VVOProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39029EE51DEC8BC400508B68 /* VVOProvider.swift */; };
 		39029F521DEC8BC400508B68 /* VVOProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39029EE51DEC8BC400508B68 /* VVOProvider.swift */; };
 		39029F531DEC8BC400508B68 /* VVOProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39029EE51DEC8BC400508B68 /* VVOProvider.swift */; };
-		39029F581DEC8BC400508B68 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39029EE81DEC8BC400508B68 /* Request.swift */; };
-		39029F591DEC8BC400508B68 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39029EE81DEC8BC400508B68 /* Request.swift */; };
-		39029F5A1DEC8BC400508B68 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39029EE81DEC8BC400508B68 /* Request.swift */; };
-		39029F5B1DEC8BC400508B68 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39029EE81DEC8BC400508B68 /* Request.swift */; };
 		39029F601DEC8BC400508B68 /* XMLElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39029EEB1DEC8BC400508B68 /* XMLElement.swift */; };
 		39029F611DEC8BC400508B68 /* XMLElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39029EEB1DEC8BC400508B68 /* XMLElement.swift */; };
 		39029F621DEC8BC400508B68 /* XMLElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39029EEB1DEC8BC400508B68 /* XMLElement.swift */; };
@@ -192,6 +188,18 @@
 		39DA16D21DEF06E600099579 /* LocationUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DA16B41DEF06E600099579 /* LocationUsage.swift */; };
 		39DA16D31DEF06E600099579 /* LocationUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DA16B41DEF06E600099579 /* LocationUsage.swift */; };
 		39DA16D41DEF06E600099579 /* LocationUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DA16B41DEF06E600099579 /* LocationUsage.swift */; };
+		39DA16D71DEF077800099579 /* ServiceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DA16D61DEF077800099579 /* ServiceRequest.swift */; };
+		39DA16D81DEF077800099579 /* ServiceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DA16D61DEF077800099579 /* ServiceRequest.swift */; };
+		39DA16D91DEF077800099579 /* ServiceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DA16D61DEF077800099579 /* ServiceRequest.swift */; };
+		39DA16DA1DEF077800099579 /* ServiceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DA16D61DEF077800099579 /* ServiceRequest.swift */; };
+		39DA16DC1DEF07AE00099579 /* RequestPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DA16DB1DEF07AD00099579 /* RequestPayload.swift */; };
+		39DA16DD1DEF07AE00099579 /* RequestPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DA16DB1DEF07AD00099579 /* RequestPayload.swift */; };
+		39DA16DE1DEF07AE00099579 /* RequestPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DA16DB1DEF07AD00099579 /* RequestPayload.swift */; };
+		39DA16DF1DEF07AE00099579 /* RequestPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DA16DB1DEF07AD00099579 /* RequestPayload.swift */; };
+		39DA16E11DEF07EA00099579 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DA16E01DEF07EA00099579 /* Request.swift */; };
+		39DA16E21DEF07EA00099579 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DA16E01DEF07EA00099579 /* Request.swift */; };
+		39DA16E31DEF07EA00099579 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DA16E01DEF07EA00099579 /* Request.swift */; };
+		39DA16E41DEF07EA00099579 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DA16E01DEF07EA00099579 /* Request.swift */; };
 		52D6D9871BEFF229002C0205 /* Triassic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* Triassic.framework */; };
 		DD7502881C68FEDE006590AF /* Triassic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6DA0F1BF000BD002C0205 /* Triassic.framework */; };
 		DD7502921C690C7A006590AF /* Triassic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D9F01BEFFFBE002C0205 /* Triassic.framework */; };
@@ -288,7 +296,6 @@
 		39029EE21DEC8BC400508B68 /* XS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XS.swift; sourceTree = "<group>"; };
 		39029EE41DEC8BC400508B68 /* Provider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
 		39029EE51DEC8BC400508B68 /* VVOProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVOProvider.swift; sourceTree = "<group>"; };
-		39029EE81DEC8BC400508B68 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		39029EEB1DEC8BC400508B68 /* XMLElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLElement.swift; sourceTree = "<group>"; };
 		39029F651DEC8C0400508B68 /* TriassicTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TriassicTests.swift; path = Tests/TriassicTests/TriassicTests.swift; sourceTree = "<group>"; };
 		391527901DEC877E0084BAEF /* AEXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AEXML.framework; path = Carthage/Build/iOS/AEXML.framework; sourceTree = "<group>"; };
@@ -323,6 +330,9 @@
 		39DA16B21DEF06E600099579 /* LocationInformationRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationInformationRequest.swift; path = Sources/LocationInformation/LocationInformationRequest.swift; sourceTree = SOURCE_ROOT; };
 		39DA16B31DEF06E600099579 /* LocationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationType.swift; path = Sources/LocationInformation/LocationType.swift; sourceTree = SOURCE_ROOT; };
 		39DA16B41DEF06E600099579 /* LocationUsage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationUsage.swift; path = Sources/LocationInformation/LocationUsage.swift; sourceTree = SOURCE_ROOT; };
+		39DA16D61DEF077800099579 /* ServiceRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceRequest.swift; sourceTree = "<group>"; };
+		39DA16DB1DEF07AD00099579 /* RequestPayload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestPayload.swift; sourceTree = "<group>"; };
+		39DA16E01DEF07EA00099579 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		52D6D97C1BEFF229002C0205 /* Triassic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Triassic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6D9861BEFF229002C0205 /* Triassic-iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Triassic-iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6D9E21BEFFF6E002C0205 /* Triassic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Triassic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -397,6 +407,7 @@
 		39029EBF1DEC8BC400508B68 /* DataTypes */ = {
 			isa = PBXGroup;
 			children = (
+				39DA16D51DEF076700099579 /* Trias */,
 				39029EC01DEC8BC400508B68 /* Common */,
 				39029EC91DEC8BC400508B68 /* FacilitySupport */,
 				39029ECA1DEC8BC400508B68 /* FaresSupport */,
@@ -532,20 +543,12 @@
 			path = Sources/Provider;
 			sourceTree = "<group>";
 		};
-		39029EE61DEC8BC400508B68 /* Requests */ = {
-			isa = PBXGroup;
-			children = (
-				39029EE81DEC8BC400508B68 /* Request.swift */,
-			);
-			name = Requests;
-			path = Sources/Requests;
-			sourceTree = "<group>";
-		};
 		39029EE91DEC8BC400508B68 /* Triassic */ = {
 			isa = PBXGroup;
 			children = (
 				39029EEB1DEC8BC400508B68 /* XMLElement.swift */,
 				39CC24871DEDAB340011CD05 /* TriassicError.swift */,
+				39DA16E01DEF07EA00099579 /* Request.swift */,
 				39CC248C1DEDB7AC0011CD05 /* Extensions */,
 			);
 			name = Triassic;
@@ -593,6 +596,15 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		39DA16D51DEF076700099579 /* Trias */ = {
+			isa = PBXGroup;
+			children = (
+				39DA16D61DEF077800099579 /* ServiceRequest.swift */,
+				39DA16DB1DEF07AD00099579 /* RequestPayload.swift */,
+			);
+			path = Trias;
+			sourceTree = "<group>";
+		};
 		52D6D9721BEFF229002C0205 = {
 			isa = PBXGroup;
 			children = (
@@ -601,7 +613,6 @@
 				39029EBF1DEC8BC400508B68 /* DataTypes */,
 				39029ECC1DEC8BC400508B68 /* LocationInformation */,
 				39029EE31DEC8BC400508B68 /* Provider */,
-				39029EE61DEC8BC400508B68 /* Requests */,
 				39029F641DEC8BF200508B68 /* Tests */,
 				52D6D99C1BEFF38C002C0205 /* Configs */,
 				52D6D97D1BEFF229002C0205 /* Products */,
@@ -1035,9 +1046,9 @@
 				39029EF81DEC8BC400508B68 /* LineDirectionFilter.swift in Sources */,
 				39DA16C91DEF06E600099579 /* LocationInformationRequest.swift in Sources */,
 				39029F601DEC8BC400508B68 /* XMLElement.swift in Sources */,
-				39029F581DEC8BC400508B68 /* Request.swift in Sources */,
 				39029F381DEC8BC400508B68 /* GeoPosition.swift in Sources */,
 				39029F481DEC8BC400508B68 /* XS.swift in Sources */,
+				39DA16E11DEF07EA00099579 /* Request.swift in Sources */,
 				39029F281DEC8BC400508B68 /* IndividualTransportOptions.swift in Sources */,
 				39029F2C1DEC8BC400508B68 /* Mode.swift in Sources */,
 				39029F501DEC8BC400508B68 /* VVOProvider.swift in Sources */,
@@ -1050,10 +1061,12 @@
 				39CC242F1DEC8D480011CD05 /* Triassic.swift in Sources */,
 				39CC24E91DEEFE360011CD05 /* LocationError.swift in Sources */,
 				39029EF01DEC8BC400508B68 /* ErrorMessage.swift in Sources */,
+				39DA16DC1DEF07AE00099579 /* RequestPayload.swift in Sources */,
 				39029F341DEC8BC400508B68 /* PtModeFilter.swift in Sources */,
 				39029F301DEC8BC400508B68 /* ModesSupport.swift in Sources */,
 				39029F3C1DEC8BC400508B68 /* InternationalText.swift in Sources */,
 				39029F401DEC8BC400508B68 /* Utility.swift in Sources */,
+				39DA16D71DEF077800099579 /* ServiceRequest.swift in Sources */,
 				39DA16CD1DEF06E600099579 /* LocationType.swift in Sources */,
 				39CC24D01DEECE870011CD05 /* NameToken.swift in Sources */,
 				39DA16C51DEF06E600099579 /* InitialLocationInput.swift in Sources */,
@@ -1091,9 +1104,9 @@
 				39029EFA1DEC8BC400508B68 /* LineDirectionFilter.swift in Sources */,
 				39DA16CB1DEF06E600099579 /* LocationInformationRequest.swift in Sources */,
 				39029F621DEC8BC400508B68 /* XMLElement.swift in Sources */,
-				39029F5A1DEC8BC400508B68 /* Request.swift in Sources */,
 				39029F3A1DEC8BC400508B68 /* GeoPosition.swift in Sources */,
 				39029F4A1DEC8BC400508B68 /* XS.swift in Sources */,
+				39DA16E31DEF07EA00099579 /* Request.swift in Sources */,
 				39029F2A1DEC8BC400508B68 /* IndividualTransportOptions.swift in Sources */,
 				39029F2E1DEC8BC400508B68 /* Mode.swift in Sources */,
 				39029F521DEC8BC400508B68 /* VVOProvider.swift in Sources */,
@@ -1106,10 +1119,12 @@
 				39CC24311DEC8D480011CD05 /* Triassic.swift in Sources */,
 				39CC24EB1DEEFE360011CD05 /* LocationError.swift in Sources */,
 				39029EF21DEC8BC400508B68 /* ErrorMessage.swift in Sources */,
+				39DA16DE1DEF07AE00099579 /* RequestPayload.swift in Sources */,
 				39029F361DEC8BC400508B68 /* PtModeFilter.swift in Sources */,
 				39029F321DEC8BC400508B68 /* ModesSupport.swift in Sources */,
 				39029F3E1DEC8BC400508B68 /* InternationalText.swift in Sources */,
 				39029F421DEC8BC400508B68 /* Utility.swift in Sources */,
+				39DA16D91DEF077800099579 /* ServiceRequest.swift in Sources */,
 				39DA16CF1DEF06E600099579 /* LocationType.swift in Sources */,
 				39CC24D21DEECE870011CD05 /* NameToken.swift in Sources */,
 				39DA16C71DEF06E600099579 /* InitialLocationInput.swift in Sources */,
@@ -1137,9 +1152,9 @@
 				39029EFB1DEC8BC400508B68 /* LineDirectionFilter.swift in Sources */,
 				39DA16CC1DEF06E600099579 /* LocationInformationRequest.swift in Sources */,
 				39029F631DEC8BC400508B68 /* XMLElement.swift in Sources */,
-				39029F5B1DEC8BC400508B68 /* Request.swift in Sources */,
 				39029F3B1DEC8BC400508B68 /* GeoPosition.swift in Sources */,
 				39029F4B1DEC8BC400508B68 /* XS.swift in Sources */,
+				39DA16E41DEF07EA00099579 /* Request.swift in Sources */,
 				39029F2B1DEC8BC400508B68 /* IndividualTransportOptions.swift in Sources */,
 				39029F2F1DEC8BC400508B68 /* Mode.swift in Sources */,
 				39029F531DEC8BC400508B68 /* VVOProvider.swift in Sources */,
@@ -1152,10 +1167,12 @@
 				39CC24321DEC8D480011CD05 /* Triassic.swift in Sources */,
 				39CC24EC1DEEFE360011CD05 /* LocationError.swift in Sources */,
 				39029EF31DEC8BC400508B68 /* ErrorMessage.swift in Sources */,
+				39DA16DF1DEF07AE00099579 /* RequestPayload.swift in Sources */,
 				39029F371DEC8BC400508B68 /* PtModeFilter.swift in Sources */,
 				39029F331DEC8BC400508B68 /* ModesSupport.swift in Sources */,
 				39029F3F1DEC8BC400508B68 /* InternationalText.swift in Sources */,
 				39029F431DEC8BC400508B68 /* Utility.swift in Sources */,
+				39DA16DA1DEF077800099579 /* ServiceRequest.swift in Sources */,
 				39DA16D01DEF06E600099579 /* LocationType.swift in Sources */,
 				39CC24D31DEECE870011CD05 /* NameToken.swift in Sources */,
 				39DA16C81DEF06E600099579 /* InitialLocationInput.swift in Sources */,
@@ -1183,9 +1200,9 @@
 				39029EF91DEC8BC400508B68 /* LineDirectionFilter.swift in Sources */,
 				39DA16CA1DEF06E600099579 /* LocationInformationRequest.swift in Sources */,
 				39029F611DEC8BC400508B68 /* XMLElement.swift in Sources */,
-				39029F591DEC8BC400508B68 /* Request.swift in Sources */,
 				39029F391DEC8BC400508B68 /* GeoPosition.swift in Sources */,
 				39029F491DEC8BC400508B68 /* XS.swift in Sources */,
+				39DA16E21DEF07EA00099579 /* Request.swift in Sources */,
 				39029F291DEC8BC400508B68 /* IndividualTransportOptions.swift in Sources */,
 				39029F2D1DEC8BC400508B68 /* Mode.swift in Sources */,
 				39029F511DEC8BC400508B68 /* VVOProvider.swift in Sources */,
@@ -1198,10 +1215,12 @@
 				39CC24301DEC8D480011CD05 /* Triassic.swift in Sources */,
 				39CC24EA1DEEFE360011CD05 /* LocationError.swift in Sources */,
 				39029EF11DEC8BC400508B68 /* ErrorMessage.swift in Sources */,
+				39DA16DD1DEF07AE00099579 /* RequestPayload.swift in Sources */,
 				39029F351DEC8BC400508B68 /* PtModeFilter.swift in Sources */,
 				39029F311DEC8BC400508B68 /* ModesSupport.swift in Sources */,
 				39029F3D1DEC8BC400508B68 /* InternationalText.swift in Sources */,
 				39029F411DEC8BC400508B68 /* Utility.swift in Sources */,
+				39DA16D81DEF077800099579 /* ServiceRequest.swift in Sources */,
 				39DA16CE1DEF06E600099579 /* LocationType.swift in Sources */,
 				39CC24D11DEECE870011CD05 /* NameToken.swift in Sources */,
 				39DA16C61DEF06E600099579 /* InitialLocationInput.swift in Sources */,
