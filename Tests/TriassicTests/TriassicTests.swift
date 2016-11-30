@@ -13,6 +13,18 @@ import XCTest
 class TriassicTests: XCTestCase {
     func testExample() {
         XCTAssertEqual(Triassic.play(), "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\n<Trias xmlns:siri=\"http://www.siri.org.uk/siri\" version=\"1.0\" xmlns=\"trias\" />")
+
+        let e = expectation(description: "Send a LocationInformationRequest")
+
+        Triassic.locationInformation(query: "Helmhol") {
+            e.fulfill()
+        }
+
+        waitForExpectations(timeout: 5) { error in
+            if let error = error {
+                XCTFail("\(error)")
+            }
+        }
     }
 }
 
